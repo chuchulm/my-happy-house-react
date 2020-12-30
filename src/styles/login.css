@@ -1,0 +1,44 @@
+.container-login{
+    background: rgb(6, 21, 236);
+    height: 100vh;
+    padding-top: 100px;
+}
+
+
+
+
+.title-container label{
+    display: flex;
+    justify-content: center;
+    color: rgb(247, 247, 247);
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    
+ 
+}
+
+.label-usuario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 20%;
+    margin: auto;
+    
+}
+label{
+    color: white;
+}
+
+.label-alert{
+    font-size: 14px;
+    color: rgb(255, 0, 0);
+    background: rgb(202, 166, 166);
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-bottom: 20px;
+
+}

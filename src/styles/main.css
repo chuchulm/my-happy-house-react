@@ -1,0 +1,441 @@
+
+.contenedor{
+    background: #9cc727ec;
+    width: 100%;
+    height: 845px;
+    display: flex;
+    
+
+}
+
+
+    
+    .video-about-us{
+        width: 800px;
+        border-radius: 10px;
+        margin-right: 100px;
+        margin-top: 70px;
+        
+      
+       
+        
+    }
+
+    
+    .contenido-texto h3{
+       
+       color: rgb(0, 255, 255);
+       font-family: 'Amatic SC', cursive;
+       font-family: 'Itim', cursive;
+       font-size: 50px;
+       margin-top: 60px;
+       margin-bottom: 30px;
+       text-align: center;
+    
+   
+    }
+    
+    
+    .contenido-texto p{
+        color: rgb(255, 255, 255);
+        padding: 0px 0px 30px 0px;
+        font-weight: 600;
+        text-align: justify;
+        font-family: 'Amatic SC', cursive;
+        font-family: 'Itim', cursive;  
+        margin-right: 30px;
+        margin-left: 100px;
+        
+        
+    
+    
+    }
+
+
+    .happy{
+        color: rgb(240, 187, 12);
+    }
+
+
+    .elefante{
+        position: absolute;
+        top: 1500px;
+        right: -10px;
+    }
+
+    
+
+    
+    
+    @media(max-width: 400.98px){
+        .contenedor{
+            background: #9cc727ec;
+            height: 750px;
+            display: flex;
+            flex-direction: column;
+          
+        
+        }.sobre-nosotros{
+            height: 1000px;
+           width: 100%;
+           margin: auto;
+
+        }
+        
+
+        .video-about-us{
+            width: 360px;
+            margin: auto;
+           border-radius: 5px;
+            margin-left: 8px;
+            
+           
+            
+        }
+
+        .contenido-texto h3{
+            /* margin-top: 250px; */
+            
+            margin-bottom: 20px;
+            text-align: center;
+            color: rgb(0, 255, 255);
+            font-family: 'Amatic SC', cursive;
+            font-family: 'Itim', cursive;
+            font-size: 30px;
+      
+       
+        }
+        
+        
+        .contenido-texto p{
+            color: rgb(255, 255, 255);
+            font-weight: 400;
+            text-align: justify;
+            font-family: 'Amatic SC', cursive;
+            font-family: 'Itim', cursive;  
+            margin: auto;
+            padding: 0px 5px 10px 5px;
+            
+        
+        
+        }
+
+        .elefante{
+            width: 250px;
+            height: 130px;
+            position: absolute;
+            top: 870px;
+            right: -50px;
+        }
+
+
+        
+        
+        
+            
+      }
+    
+    
+      @media screen and (min-width: 401px) and (max-width: 578.98px){
+          
+        .contenedor{
+            background: #9cc727ec;
+            height: 850px;
+            display: flex;
+            flex-direction: column;
+          
+        
+        }.sobre-nosotros{
+           height: 1000px;
+           width: 100%;
+           
+
+        }
+        
+
+        .video-about-us{
+            width: 455px;
+           border-radius: 5px;
+           padding: 20px 50px 0px 10px;
+            
+           
+            
+        }
+
+        .contenido-texto h3{
+            /* margin-top: 250px; */
+            
+            margin-bottom: 20px;
+            text-align: center;
+            color: rgb(0, 255, 255);
+            font-family: 'Amatic SC', cursive;
+            font-family: 'Itim', cursive;
+            font-size: 30px;
+      
+       
+        }
+        
+        
+        .contenido-texto p{
+            color: rgb(255, 255, 255);
+            font-weight: 400;
+            text-align: justify;
+            font-family: 'Amatic SC', cursive;
+            font-family: 'Itim', cursive;  
+            margin: auto;
+            padding: 0px 8px 10px 8px;
+            
+        
+        
+        }
+
+        .elefante{
+            width: 250px;
+            height: 130px;
+            position: absolute;
+            top: 1000px;
+            right: -50px;
+        }
+
+
+        
+      
+      }
+      
+      
+      
+      
+      @media screen and (min-width: 579px) and (max-width: 812.98px){
+      
+        .contenedor{
+            background: #9cc727ec;
+            height: 600px;
+            display: flex;
+            
+          
+        
+        }.sobre-nosotros{
+            height: 1000px;
+           width: 100%;
+           margin: auto;
+
+        }
+        
+
+        .video-about-us{
+            width: 420px;
+            margin: auto;
+            margin-top: 57px;
+            border-radius: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 70px;
+            
+           
+            
+        }
+
+        .contenido-texto h3{
+            /* margin-top: 250px; */
+            
+            margin-bottom: 20px;
+            text-align: center;
+            color: rgb(0, 255, 255);
+            font-family: 'Amatic SC', cursive;
+            font-family: 'Itim', cursive;
+            font-size: 35px;
+            margin-left: 0px;
+      
+       
+        }
+        
+        
+        .contenido-texto p{
+            color: rgb(255, 255, 255);
+            font-weight: 400;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'Amatic SC', cursive;
+            font-family: 'Itim', cursive;  
+            margin: auto;
+            margin-left: 20px;
+            text-align: justify;
+            padding: 0px 2px 10px 0px;
+            
+            
+        
+        
+        }
+
+        .elefante{
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            top: 870px;
+            right: -50px;
+        }
+
+
+      
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      @media screen and (min-width: 813px) and  (max-width: 1111.98px) {
+      
+        .contenedor{
+            background: #9cc727ec;
+            height: 600px;
+            display: flex;
+            
+          
+        
+        }.sobre-nosotros{
+            height: 1000px;
+           width: 100%;
+           margin: auto;
+
+        }
+        
+
+        .video-about-us{
+            width: 450px;
+            margin: auto;
+            margin-top: 57px;
+           border-radius: 5px;
+             padding-left: 10px;
+             padding-right: 10px;
+             padding-top: 20px;
+            
+           
+            
+        }
+
+        .contenido-texto h3{
+            /* margin-top: 250px; */
+            
+            margin-bottom: 20px;
+            text-align: center;
+            color: rgb(0, 255, 255);
+            font-family: 'Amatic SC', cursive;
+            font-family: 'Itim', cursive;
+            font-size: 35px;
+            margin-left: 0px;
+      
+       
+        }
+        
+        
+        .contenido-texto p{
+            color: rgb(255, 255, 255);
+            font-weight: 400;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'Amatic SC', cursive;
+            font-family: 'Itim', cursive;  
+            margin: auto;
+            margin-left: 20px;
+            text-align: justify;
+            padding: 0px 2px 10px 0px;
+            
+            
+        
+        
+        }
+
+        .elefante{
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            top: 950px;
+            right: 10px;
+        }
+
+
+      
+      
+      
+      
+        
+         
+        
+      }
+      
+      
+      @media screen and (min-width: 1112px) and  (max-width: 1380px) {
+      
+        .contenedor{
+            background: #9cc727ec;
+            width: 100%;
+            height: 800px;
+            position: relative;
+            display: flex;
+            padding-top: 100px;
+            
+        
+        }
+        
+        
+            
+            .video-about-us{
+                width: 600px;
+                border-radius: 10px;
+                margin-right: 100px;
+                margin-top: 70px;
+                
+              
+               
+                
+            }
+        
+            
+            .contenido-texto h3{
+               
+               color: rgb(0, 255, 255);
+               font-family: 'Amatic SC', cursive;
+               font-family: 'Itim', cursive;
+               font-size: 50px;
+               margin-top: 60px;
+               margin-bottom: 30px;
+               text-align: center;
+            
+           
+            }
+            
+            
+            .contenido-texto p{
+                color: rgb(255, 255, 255);
+                padding: 0px 0px 30px 0px;
+                font-weight: 600;
+                text-align: justify;
+                font-family: 'Amatic SC', cursive;
+                font-family: 'Itim', cursive;  
+                margin-right: 30px;
+                margin-left: 100px;
+                
+                
+            
+            
+            }
+        
+        
+            .happy{
+                color: rgb(240, 187, 12);
+            }
+        
+        
+            .elefante{
+                position: absolute;
+                top: 500px;
+                right: -10px;
+            }
+        
+        
+      
+      }
+      
