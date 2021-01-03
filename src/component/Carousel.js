@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/carousel.css'
+import Aos from "aos"
+import "aos/dist/aos.css"
 import img1 from '../img/myHouse1.png'
 import img2 from '../img/myHouse2.jpg'
 import img3 from '../img/myHouse3.jpg'
@@ -9,6 +11,12 @@ import aeiou from '../img/oso.png'
 
 
 function Carousel(){
+
+  useEffect(() => {
+    Aos.init({ duration: 2000});
+    
+  }, []);
+
     return(
      
      <>
@@ -20,13 +28,15 @@ function Carousel(){
              <path d="M-24.60,26.94 C149.21,110.81 271.49,-49.99 500.22,40.75 L500.00,0.00 L0.00,0.00 Z" className="wave3"></path></svg>
          </div>
 
-  <img src={zorro}  alt='imagen' className='zorro' width="460px" height="250px"/>
+  <img src={zorro}  alt='imagen' className='zorro' width="460px" height="250px" data-aos="fade-up"/>
 
-      <div >
+      <div data-aos="fade-right"
+           data-aos-offset="300"
+           data-aos-easing="ease-in-sine">
        <h3 className="tituloCarousel">Ven a disfrutar<span className='VEN'> esta increible</span> Aventura</h3>
       </div>
 
-        <div id="carouselExampleIndicators" className="carousel slide  carouselHouse1" data-ride="carousel">
+        <div id="carouselExampleIndicators" className="carousel slide  carouselHouse1" data-ride="carousel" data-aos="fade-left">
            <ol className="carousel-indicators">
              <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>

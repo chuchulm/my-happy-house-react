@@ -1,7 +1,6 @@
 import React from  'react'
 import Header from './Header';
 import Main from './main'
-// import Personal from './personal'
 import Carousel from './Carousel'
 import Portafolio from './Portafolio'
 import Footer from './footer'
@@ -18,7 +17,6 @@ function Home(){
      <Main/>
      <Carousel/>
      <Portafolio/>
-     {/* <Personal/> */}
      <Paralax/>
      <Footer/>
      <Iconos/>

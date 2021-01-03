@@ -59,10 +59,6 @@ function Personal(){
                         </div>
                     </div>
                 </div>
-
-                {/* <img src={rana}  alt='imagen' className='rana' width="490px" height="300px"/> */}
-                {/* <img src={ranaGrande}  alt='imagen' className='ranaGrande' width="300px" height="400px"/> */}
-                {/* <img src={Jirafa}  alt='imagen' className='Jirafa' width="500px" height="500px"/> */}
             </div>
         </div>
 
