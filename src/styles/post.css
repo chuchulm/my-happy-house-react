@@ -1,31 +1,24 @@
-.container-blog{
-    
-    background: #1CD8D2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    
-    
-    
-    margin: auto;
-    padding-top: 5px;
-    
-    
-    
-}
 
-.blog-caja{
-    width: 600px;
-    margin: auto;
-    margin-top: 20px;
-    
-    
 
+.contenedor-blog{
+    
+    background: #c0c0aa;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(184, 100%, 55%, 0.87), hsla(60, 15%, 71%, 0)), url(../img/tambores.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(327, 100%, 50%, 0.116), hsla(60, 15%, 71%, 0)), url(../img/tambores.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+             
+    
 }
 
 
 .caja-fondo{
-  box-shadow: 0px 10px 10px 6px rgba(0,0,0,.4);
+  box-shadow: 0px 10px 10px 6px rgba(0,0,0,.6);
+  ;
 }
 
 

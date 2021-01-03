@@ -1,6 +1,8 @@
 import React from 'react'
 import '../styles/portafolio.css';
 import logo from '../img/logo-happy-house-vector3.png';
+import zorrilla from '../img/zorrilla.png';
+import OsoPolar from '../img/oso-polar.png'
 import inst1 from '../img/instalacion1.png';
 import inst2 from '../img/instalacion2.png';
 import inst3 from '../img/instalacion3.png';
@@ -23,6 +25,7 @@ function Portafolio(){
          </div>
 
          <img src={logo} alt="" className="logo2"></img>
+         <img src={zorrilla} alt="" className="zorrilla"></img>
              
         <div className="contenedor1">
          
@@ -93,9 +96,9 @@ function Portafolio(){
                            <p></p>
                        </div>
                   </div>
+            </div>
 
-     
-           </div>
+            <img src={OsoPolar}  alt='imagen' className='oso-polar' />
       </div>
 
 

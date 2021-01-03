@@ -29,6 +29,7 @@ class Blog extends React.Component{
            <div>
         
              <Posts posts={this.state.articulos}/>
+             
            </div>
           
           

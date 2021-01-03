@@ -1,13 +1,20 @@
 import React from 'react'
 import '../styles/personal.css';
 import Logo from '../img/first-person.jpg'
-import rana from '../img/rana.png'
-import ranaGrande from '../img/rana-vector.png'
-import Jirafa from '../img/Jirafa-vector.png'
+import NavBarBlog from '../component/navBarBlog'
+// import rana from '../img/rana.png'
+// import ranaGrande from '../img/rana-vector.png'
+// import Jirafa from '../img/Jirafa-vector.png'
 
 
 function Personal(){
     return(
+
+
+        <>
+
+        <NavBarBlog/>
+
         <section className="testimony">
 
          <div className="wave3" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" className="wave4">
@@ -61,6 +68,8 @@ function Personal(){
 
         
     </section>
+
+    </>
     )
 }
 export default Personal;

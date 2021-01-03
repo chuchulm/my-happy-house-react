@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/Header.css'
 import imagenHeader from '../img/imagenHeader2.jpg'
 import nubeFondo from '../img/nubeFondo.png'
-import Venado from '../img/venado.png'
+import Venado from '../img/aeiou.png'
 import NavBar from './navBar'
 
 

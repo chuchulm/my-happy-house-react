@@ -3,7 +3,8 @@ import '../styles/carousel.css'
 import img1 from '../img/myHouse1.png'
 import img2 from '../img/myHouse2.jpg'
 import img3 from '../img/myHouse3.jpg'
-import oveja from '../img/oveja.png'
+import zorro from '../img/zorro.png'
+import aeiou from '../img/oso.png'
 
 
 
@@ -19,7 +20,7 @@ function Carousel(){
              <path d="M-24.60,26.94 C149.21,110.81 271.49,-49.99 500.22,40.75 L500.00,0.00 L0.00,0.00 Z" className="wave3"></path></svg>
          </div>
 
-  <img src={oveja}  alt='imagen' className='oveja' width="460px" height="250px"/>
+  <img src={zorro}  alt='imagen' className='zorro' width="460px" height="250px"/>
 
       <div >
        <h3 className="tituloCarousel">Ven a disfrutar<span className='VEN'> esta increible</span> Aventura</h3>
@@ -54,7 +55,7 @@ function Carousel(){
            </a>
         </div>
 
-        
+        {/* <img src={aeiou}  alt='imagen' className='aeiou' width="460px" height="250px"/> */}
     </div>
         </>
     )

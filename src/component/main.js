@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/main.css';
 import FondoVerde from '../img/fondoVerde.jpg';
-import elefante from '../img/elefante.png'
+import jirafa from '../img/jirafa.png'
 import video from '../img/videoHappyHouse.mp4';
 
 
@@ -34,7 +34,7 @@ function Main(){
     
                 
 
-                    <img src={elefante}  alt='imagen' className='elefante' width="460px" height="250px"/>
+                    <img src={jirafa}  alt='imagen' className='jirafa' width="460px" height="250px"/>
         
                    
                    

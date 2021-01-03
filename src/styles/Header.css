@@ -43,11 +43,11 @@
   }
 
   .venado{
-    width: 350px;
-    height: 200px;
+    width: 420px;
+    height: 250px;
     position: absolute;
-    top: 700px;
-    left: 0px;
+    top: 750px;
+    left: 50px;
 
   }
 
@@ -103,8 +103,8 @@
       .venado{
        width: 130px;
        height: 70px;
-       top: 220px;
-       left: -30px;
+       top: 250px;
+       left: -15px;
       }
   }
 
@@ -162,10 +162,10 @@
 }
 
     .venado{
-     width: 130px;
-     height: 70px;
-     top: 240px;
-     left: -30px;
+     width: 140px;
+     height: 80px;
+     top: 270px;
+     left: -10px;
     }
   
    
@@ -226,8 +226,8 @@
       position: absolute;
      width: 200px;
      height: 120px;
-     top: 380px;
-     left: -50px;
+     top: 400px;
+     left: 10px;
     }
   
     

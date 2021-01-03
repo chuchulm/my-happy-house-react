@@ -46,7 +46,7 @@
  }
 
 
- @media(max-width: 400px){
+ @media(max-width: 400.98px){
 
     .footer{
     background: #dd3838;  
@@ -71,3 +71,64 @@
     
     }
  }
+
+
+ @media screen and (min-width: 401px) and (max-width: 578.98px){
+
+    .footer{
+        background: #dd3838;  
+        height: 420px;
+        padding: 70px 0 30px 0;
+        margin: auto;
+        overflow: hidden;
+        
+        }
+    
+        .contenedor-footer{
+            display: flex;
+           justify-content: space-between;
+           flex-direction: column;
+            width: 80%;
+            margin: auto;
+            padding-bottom: 50px;
+            border-bottom: 1px solid #ccc;
+            height: 250px;
+            margin-bottom: 10px;
+            
+        
+        }
+    
+     
+  
+  }
+  
+  
+  
+  
+  @media screen and (min-width: 579px) and (max-width: 812.98px){
+  
+   
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (min-width: 813px) and  (max-width: 1111.98px) {
+  
+    
+    
+    
+  }
+  
+  
+  @media screen and (min-width: 1112px) and  (max-width: 1380.99px) {
+  
+    
+  }  
+     
+    

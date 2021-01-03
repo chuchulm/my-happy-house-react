@@ -1,12 +1,12 @@
-.navBarColor{
+.navBarColor1{
     /* background: rgba(103, 203, 228, 0.993); */
-    background: rgb(88, 205, 239);
+    background: rgb(182, 204, 211);
     color: white;
     font-size: 25px;
     height: 60px;
     font-family: 'Amatic SC', cursive;
     font-family: 'Itim', cursive;
-    
+    z-index: 100;
 
     
 }
@@ -86,8 +86,8 @@
     }
     
     .logo-navBar{
-        width: 310px;
-        height: 310px;
+        width: 70px;
+        height: 70px;
         border-radius: 10px;
         margin-top: 0px;
         margin-left: 10px;
