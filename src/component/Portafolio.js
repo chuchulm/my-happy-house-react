@@ -34,11 +34,11 @@ function Portafolio(){
 
          <img src={logo} alt="" className="logo2" data-aos="zoom-in"></img>
          <img src={zorrilla} alt="" className="zorrilla" data-aos="fade-left"></img>
-             
-        <div className="contenedor1">
-         
-            
-      <div className="galeria-port">
+
+
+          
+         <div className="contenedor1">
+            <div className="galeria-port">
                   <div className="imagen-port" data-aos="fade-down-right">
                      <img src={inst1} alt=""></img>
                       <div className="hover-galeria">
@@ -107,8 +107,8 @@ function Portafolio(){
             </div>
 
             <img src={OsoPolar}  alt='imagen' className='oso-polar' data-aos="fade-left" />
-      </div>
-
+         </div>
+    
 
 
 

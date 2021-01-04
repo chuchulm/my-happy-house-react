@@ -1,7 +1,8 @@
 import React from 'react'
 import '../styles/lacasa.css';
 import NavBarBlog from '../component/navBarBlog'
-import {RViewer,  RViewerTrigger  } from 'react-viewerjs'
+import IconoWhatsapp from './iconoWhatsapp'
+import { SRLWrapper } from "simple-react-lightbox";
 import casa1 from '../img/casa1.jpeg';
 import casa2 from '../img/casa2.jpeg';
 import casa3 from '../img/casa3.jpeg';
@@ -17,7 +18,7 @@ import casa12 from '../img/casa12.jpeg';
 import casa13 from '../img/casa13.jpeg';
 import casa14 from '../img/casa14.jpeg';
 import casa15 from '../img/casa15.jpeg';
-import IconoWhatsapp from './iconoWhatsapp'
+
 
 
 
@@ -31,27 +32,26 @@ function Lacasa(){
 
     return(
         <>
+        
           <NavBarBlog/>
           <IconoWhatsapp/>
-          
-          <div className="casa">
-            <RViewer imageUrls = { imagen }>
-            
-                <div className='card12'>
-                    {imagen.map( ( img, index  )=> {
-                        return(
-                            <RViewerTrigger index={ index } >
+         
+            <div className="casa">
+                <SRLWrapper>
+                    <div className='card12'>
+                        {imagen.map( ( img, index  )=> {
+                            return(
+                        
                                 <div className=" card123" key= { index } >
                                    <img src= { img } className="card-img-top imgcard" alt= 'myhappyhouse'  />
                                 </div>
-                            </RViewerTrigger>
- 
-                        )
-                        
-                    })}
-                </div>
-            </RViewer>
-        </div>
+                            )
+                            
+                        })}
+                    </div>
+                </SRLWrapper>
+            </div>
+       
             
         </> 
     )

@@ -5,7 +5,7 @@ import '../styles/post.css'
 
 const post = ({article}) => {
 
-console.log(article)
+
 
 const {Imagenes, contenido, titulo} = article.fields
 
