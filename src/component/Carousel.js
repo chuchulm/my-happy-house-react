@@ -5,8 +5,9 @@ import "aos/dist/aos.css"
 import img1 from '../img/myHouse1.png'
 import img2 from '../img/myHouse2.jpg'
 import img3 from '../img/myHouse3.jpg'
+import casa8 from '../img/casa8.jpeg';
 import zorro from '../img/zorro.png'
-import aeiou from '../img/oso.png'
+
 
 
 
@@ -28,7 +29,7 @@ function Carousel(){
              <path d="M-24.60,26.94 C149.21,110.81 271.49,-49.99 500.22,40.75 L500.00,0.00 L0.00,0.00 Z" className="wave3"></path></svg>
          </div>
 
-  <img src={zorro}  alt='imagen' className='zorro' width="460px" height="250px" data-aos="fade-up"/>
+             <img src={zorro}  alt='imagen' className='zorro' width="460px" height="250px" data-aos="fade-up"/>
 
       <div data-aos="fade-right"
            data-aos-offset="300"
@@ -45,7 +46,7 @@ function Carousel(){
 
            <div className="carousel-inner">
              <div className="carousel-item active">
-               <img src={img1} className="carouselHouse" alt="..."/>
+               <img src={casa8} className="carouselHouse" alt="..."/>
              </div>
              <div className="carousel-item">
                <img src={img2} className="carouselHouse" alt="..."/>

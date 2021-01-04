@@ -3,7 +3,7 @@ import '../styles/navBar.css'
 import {Link} from "react-router-dom"
 import Aos from "aos"
 import "aos/dist/aos.css"
-import Logo from '../img/logo-happy-house-vector3.png'
+import Logo from '../img/logo-fondo-azul.png'
 import facebook from '../img/facebook.png'
 import instagram from '../img/instagram.png'
 import whatsapp from '../img/whatsapp.png'

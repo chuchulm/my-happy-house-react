@@ -9,7 +9,7 @@
     height: 1150px;
     padding: 0px 0;
     width: 90%;
-    max-width: 1000px;
+    max-width: 1300px;
     margin: auto;
     overflow: hidden;
     display: flex;
@@ -40,7 +40,7 @@
     
     .imagen-port{
         width: 24%;
-        height: 300px;
+        height: 320px;
         margin-bottom: 10px;
         overflow: hidden;
         position: relative;
@@ -77,16 +77,27 @@
         width: 1000px;
         height: 650px;
         position: absolute;
-        top: 700px;
-        left: -300px;
+        top: 730px;
+        left: 100px;
     }
 
     .zorrilla{
         width: 700px;
         position: absolute;
         top: 178px;
-        right: 240px;
+        right: 140px;
     }
+
+
+    .oso{
+        width: 750px;
+        height: 500px;
+        position: absolute;
+        top: 60px;
+        left: 0px;
+    }
+
+
     
     .hover-galeria img{
         width: 50px;
@@ -148,13 +159,6 @@
             
         }
 
-      
-
-        .galeria-port{
-         
-            
-        }
-           
 
     
     .imagen-port{
@@ -178,11 +182,11 @@
     }
 
     .oso-polar{
-        width: 300px;
-        height: 190px;
+        width: 370px;
+        height: 250px;
         position: absolute;
-        top: 2608px;
-        left: -70px;
+        top: 2578px;
+        left: 0px;
     }
 
     .zorrilla{
@@ -191,6 +195,16 @@
         top: 190px;
         right: -50px;
     }
+
+
+    .oso{
+        width: 350px;
+        height: 200px;
+        position: absolute;
+        top: 140px;
+        left: -95px;
+    }
+
 
     .wave6{
         height: 100px;
@@ -266,10 +280,10 @@
 }
 
 .oso-polar{
-    width: 420px;
-    height: 300px;
+    width: 560px;
+    height: 420px;
     position: absolute;
-    top: 3293px;
+    top: 3223px;
     left: -70px;
 }
 
@@ -279,6 +293,14 @@
     position: absolute;
     top: 230px;
     right: -50px;
+}
+
+.oso{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 210px;
+    left: -105px;
 }
 
 
@@ -368,11 +390,11 @@
         }
 
         .oso-polar{
-            width: 460px;
-            height: 310px;
+            width: 500px;
+            height: 380px;
             position: absolute;
-            top: 630px;
-            left: -80px;
+            top: 600px;
+            left: 80px;
         }
 
         .zorrilla{
@@ -380,6 +402,14 @@
             position: absolute;
             top: 195px;
             right: -100px;
+        }
+
+        .oso{
+            width: 650px;
+            height: 400px;
+            position: absolute;
+            top: 70px;
+            left: -175px;
         }
         
         .hover-galeria img{
@@ -500,11 +530,11 @@
 
 
         .oso-polar{
-            width: 480px;
-            height: 340px;
+            width: 580px;
+            height: 440px;
             position: absolute;
-            top: 630px;
-            left: -90px;
+            top: 600px;
+            left: 190px;
         }
 
         .zorrilla{
@@ -513,6 +543,14 @@
             position: absolute;
             top: 185px;
             right: -90px;
+        }
+
+        .oso{
+            width: 650px;
+            height: 400px;
+            position: absolute;
+            top: 80px;
+            left: -170px;
         }
 
 
@@ -624,7 +662,7 @@
             width: 850px;
             position: absolute;
             top: 690px;
-            left: 350px;
+            left: 100px;
         }
 
         .zorrilla{
@@ -632,6 +670,14 @@
             position: absolute;
             top: 210px;
             right: 50px;
+        }
+
+        .oso{
+            width: 750px;
+            height: 500px;
+            position: absolute;
+            top: 10px;
+            left: -160px;
         }
     
         

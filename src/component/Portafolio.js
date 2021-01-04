@@ -4,6 +4,7 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 import logo from '../img/logo-happy-house-vector3.png';
 import zorrilla from '../img/zorrilla.png';
+import oso from '../img/oso.png';
 import OsoPolar from '../img/oso-polar.png'
 import inst1 from '../img/instalacion1.png';
 import inst2 from '../img/instalacion2.png';
@@ -34,7 +35,8 @@ function Portafolio(){
 
          <img src={logo} alt="" className="logo2" data-aos="zoom-in"></img>
          <img src={zorrilla} alt="" className="zorrilla" data-aos="fade-left"></img>
-
+         <img src={oso} alt="" className="oso" data-aos="fade-left"></img>
+          
 
           
          <div className="contenedor1">

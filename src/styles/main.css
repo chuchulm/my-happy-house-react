@@ -10,7 +10,7 @@
 
     
   .video-about-us{
-    width: 800px;
+    width: 850px;
     border-radius: 10px;
     margin-right: 100px;
     margin-top: 50px;
@@ -49,7 +49,7 @@
 
 
   .happy{
-    color: rgb(240, 187, 12);
+    color: rgb(255, 197, 5);
   }
 
 
@@ -272,20 +272,20 @@
   } 
   
 
-.sobre-nosotros{
-    height: 1000px;
-   width: 100%;
-   margin: auto
-  }
-
-.video-about-us{
-    width: 385px;
-    margin: auto;
-    margin-bottom: 100px;
-    
-    
-  } 
-   
+  .sobre-nosotros{
+      height: 1000px;
+     width: 100%;
+     margin: auto
+    }
+  
+  .video-about-us{
+      width: 460px;
+      margin: auto;
+      margin-bottom: 100px;
+      
+      
+    } 
+     
     
 
 .contenido-texto h3{
@@ -309,7 +309,7 @@
     font-family: 'Amatic SC', cursive;
     font-family: 'Itim', cursive;  
     margin: auto;
-    margin-left: 18px;
+    margin-left: 20px;
     text-align: justify;
     
     
@@ -318,11 +318,11 @@
 
 
 .jirafa{
-    width: 500px;
-    height: 270px;
+    width: 600px;
+    height: 400px;
     position: absolute;
-    top: 935px;
-    right: 350px;
+    top: 820px;
+    right: 430px;
   }
 
 

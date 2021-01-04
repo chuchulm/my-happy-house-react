@@ -18,11 +18,12 @@
 .logo-navBar{
     width: 220px;
     height: 200px;
-    border-radius: 30px;
-    margin-top: 170px;
+    border-radius: 20px;
+    border: 3px solid white;
+    margin-top: 140px;
     margin-left: 60px;
     margin-right: 20px;
-    /* background-color: rgb(20, 39, 214); */
+    box-shadow: 5px 4px 10px .1px rgba(0,0,0,0.98), 11px 10px 13px 3px rgba(0,0,0,0.08);
     
 }
 
@@ -56,7 +57,7 @@
 
 
 .colorLetras{
-    background: rgba(23, 224, 207, 0.986);
+    background: rgba(23, 200, 224, 0.986);
     border-radius: 5px;
     margin-right: 5px;
     box-shadow: 8px 7px 13px 2px rgba(0,0,0,0.98), 11px 10px 13px 3px rgba(0,0,0,0.08);
@@ -66,7 +67,7 @@
 
 .colorLetras:hover{
     background: rgb(247, 0, 255);
-    transform: rotate(6deg);
+    transform: rotate( 5deg);
     transition: transform .5s;
     
 }
