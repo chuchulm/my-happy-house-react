@@ -33,7 +33,7 @@ function Main(){
                     <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis illo blanditiis incidunt mollitia repudiandae recusandae beatae, itaque modi pariatur repellat eos, laborum facilis architecto quo, fugit voluptatum fuga vitae eveniet.</p>
                     
                 </div>
-                <div className="col-sm-12 col-md-6" data-aos="fade-left">
+                <div className="col-sm-12 col-md-6 " data-aos="fade-left">
                     <video className="video-about-us" controls autoPlay>
                         <source src={video} type="video/mp4"></source>
                     </video>
