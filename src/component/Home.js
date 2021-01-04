@@ -5,7 +5,7 @@ import Carousel from './Carousel'
 import Portafolio from './Portafolio'
 import Footer from './footer'
 import Paralax from './paralax'
-import Iconos from './iconos'
+import IconosWhatsapp from './iconoWhatsapp'
 
 
 
@@ -19,7 +19,7 @@ function Home(){
      <Portafolio/>
      <Paralax/>
      <Footer/>
-     <Iconos/>
+     <IconosWhatsapp/>
      
      
     

@@ -6,7 +6,7 @@
     height: 60px;
     font-family: 'Amatic SC', cursive;
     font-family: 'Itim', cursive;
-    
+    padding-top: 30px;
 
     
 }
@@ -17,7 +17,7 @@
 
 .logo-navBar{
     width: 220px;
-    height: 220px;
+    height: 200px;
     border-radius: 30px;
     margin-top: 170px;
     margin-left: 60px;

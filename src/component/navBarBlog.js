@@ -22,7 +22,7 @@ function NavBarBlog(){
             </li>
             <li className="nav-item">
               {/* <a className="nav-link colorLetras" href="#">Nosotros</a> */}
-              <Link to="/personal" className='nav-link active colorLetras'>La casa</Link>
+              <Link to="/Lacasa" className='nav-link active colorLetras'>La casa</Link>
             </li>
             <li className="nav-item">
               <Link to="/blog" className='nav-link active colorLetras'>Blog de Eventos</Link>

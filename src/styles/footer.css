@@ -107,7 +107,51 @@
   
   @media screen and (min-width: 579px) and (max-width: 812.98px){
   
-   
+    .footer{
+        background: #dd3838;  
+        height: 320px;
+        padding: 60px 30px 0px 0;
+        margin: auto;
+        overflow: hidden;
+        
+        
+    }
+    
+    .contenedor-footer{
+        display: flex;
+       justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        padding-bottom: 50px;
+        border-bottom: 2px solid #ccc;
+        height: 150px;
+    
+    
+    }
+    
+    .content-foo{
+        text-align: center;
+    
+    }
+    
+    .content-foo h4{
+        
+       color: rgb(255, 255, 255);
+       border-bottom: 3px solid #346b68;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .content-foo p{
+        color: rgb(255, 255, 255);
+        
+     }
+     .titulo-final{
+         text-align: center;
+         font-size: 24px;
+         margin: 20px 0 0 0;
+         color: #fffbfb;
+     }
   
   }
   
@@ -120,6 +164,52 @@
   
   @media screen and (min-width: 813px) and  (max-width: 1111.98px) {
   
+    .footer{
+        background: #dd3838;  
+        height: 320px;
+        padding: 60px 30px 0px 0;
+        margin: auto;
+        overflow: hidden;
+        
+        
+    }
+    
+    .contenedor-footer{
+        display: flex;
+       justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        padding-bottom: 50px;
+        border-bottom: 2px solid #ccc;
+        height: 150px;
+    
+    
+    }
+    
+    .content-foo{
+        text-align: center;
+    
+    }
+    
+    .content-foo h4{
+        
+       color: rgb(255, 255, 255);
+       border-bottom: 3px solid #346b68;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .content-foo p{
+        color: rgb(255, 255, 255);
+        
+     }
+     .titulo-final{
+         text-align: center;
+         font-size: 24px;
+         margin: 20px 0 0 0;
+         color: #fffbfb;
+     }
+    
     
     
     
@@ -128,6 +218,7 @@
   
   @media screen and (min-width: 1112px) and  (max-width: 1380.99px) {
   
+    
     
   }  
      
