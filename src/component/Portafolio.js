@@ -24,7 +24,7 @@ function Portafolio(){
    useEffect(() => {
       Aos.init({ duration: 2000});
       
-    }, []);
+   }, []);
 
 
    return(
@@ -110,69 +110,12 @@ function Portafolio(){
 
             <img src={OsoPolar}  alt='imagen' className='oso-polar' data-aos="fade-left" />
          </div>
-    
-
-
-
-      
-        
-</section>
-
-
-
-
-      
-
-      
+           
+      </section>
        
-    )
+   )
 }
 export default Portafolio;
 
 
 
-
-
-/*
-
-<Card
-hoverable
-style={{ width: 600 }}
-cover={<img alt="example" src={Bandana1} alt="logo" />}>
-<Meta title="LEMOM.ACCESORIOS" description="www.instagram.com" />
-</Card>
-
-
-
-
-</section>
-
-
-       <section class="about-services">
-           <div class="contenedor">
-             <h2 class="Nuestros servicios"></h2>
-             <div class="servicio-cont">
-
-               <div class="servicio-ind">
-                 <img src="img/ilustracion1.png" alt="">
-                 <h3>Name</h3>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, dolore?</p>
-
-               </div>
-               <div class="servicio-ind">
-                <img src="img/ilustracion2.png" alt="">
-                <h3>Name</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, dolore?</p>
-                
-              </div>
-              <div class="servicio-ind">
-                <img src="img/ilustracion3.png" alt="">
-                <h3>Name</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, dolore?</p>
-                
-              </div>
-             </div>
-           </div>
-       </section>
-
-       */

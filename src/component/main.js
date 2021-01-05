@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import '../styles/main.css';
 import Aos from "aos"
 import "aos/dist/aos.css"
-import FondoVerde from '../img/fondoVerde.jpg';
 import jirafa from '../img/jirafa.png'
 import video from '../img/videoHappyHouse.mp4';
 

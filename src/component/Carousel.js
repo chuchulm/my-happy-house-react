@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import '../styles/carousel.css'
 import Aos from "aos"
 import "aos/dist/aos.css"
-import img1 from '../img/myHouse1.png'
 import img2 from '../img/myHouse2.jpg'
 import img3 from '../img/myHouse3.jpg'
 import casa8 from '../img/casa8.jpeg';
@@ -65,8 +64,6 @@ function Carousel(){
              <span className="sr-only">Next</span>
            </a>
         </div>
-
-        {/* <img src={aeiou}  alt='imagen' className='aeiou' width="460px" height="250px"/> */}
     </div>
         </>
     )

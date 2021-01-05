@@ -1,10 +1,7 @@
 import React from 'react'
 import '../styles/navBarBlog.css'
 import {Link} from "react-router-dom"
-import Logo from '../img/logo-happy-house-vector3.png'
-import facebook from '../img/facebook.png'
-import instagram from '../img/instagram.png'
-import whatsapp from '../img/whatsapp.png'
+
 
 
 function NavBarBlog(){
@@ -21,7 +18,7 @@ function NavBarBlog(){
               <Link to="/" className='nav-link active colorLetras' >Inicio</Link>
             </li>
             <li className="nav-item">
-              {/* <a className="nav-link colorLetras" href="#">Nosotros</a> */}
+            
               <Link to="/Lacasa" className='nav-link active colorLetras'>La casa</Link>
             </li>
             <li className="nav-item">
