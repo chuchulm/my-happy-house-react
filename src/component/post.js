@@ -7,7 +7,7 @@ const post = ({article}) => {
 
 
 
-const {Imagenes, contenido, titulo} = article.fields
+const {Imagenes, contenido, titulo, fecha} = article.fields
 
     return (
         <>
@@ -17,12 +17,12 @@ const {Imagenes, contenido, titulo} = article.fields
             <div className="container-fluid contenedor-blog ">
                 <div className="row ">
                         <div className=" col-md-6 col sm-6 mx-auto ">
-                           <div className="card mb-2 mt-2 caja-fondo">
+                           <div className="card mb-2 mt-4 caja-fondo">
                                <img src={Imagenes.fields.file.url} className="card-img-top img-fluid"  alt="..."/>
                                     <div className="card-body">
                                         <h5 className="card-title blog-titulo blog-titulo">{titulo}</h5>
                                         <p className="card-text blog-texto blog-texto" >{contenido}</p> <hr/>
-                                        <p className="card-text blog-texto" >{Imagenes.sys.createdAt}</p>
+                                        <p className="card-text blog-texto" >{fecha}</p>
                                     </div>
                             </div>
                        </div>

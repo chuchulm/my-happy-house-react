@@ -29,12 +29,12 @@ function NavBar(){
       
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto text-center" data-aos="flip-up">
+            
             <li className="nav-item active">
               <Link to="/" className='nav-link active colorLetras' >Inicio</Link>
             </li>
             <li className="nav-item">
-              {/* <a className="nav-link colorLetras" href="#">Nosotros</a> */}
-              <Link to="/lacasa" className='nav-link active colorLetras'> La casa</Link>
+              <Link to="/lacasa" className='nav-link active colorLetras'> La casita</Link>
             </li>
             <li className="nav-item">
               <Link to="/blog" className='nav-link active colorLetras'>Blog de Eventos</Link>

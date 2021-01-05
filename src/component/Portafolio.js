@@ -45,7 +45,6 @@ function Portafolio(){
                      <img src={inst1} alt=""></img>
                       <div className="hover-galeria">
                          <img src={""} alt=""></img>
-                         <p></p>
                       </div>
                   </div>
 
@@ -53,7 +52,6 @@ function Portafolio(){
                      <img src={inst2} alt=""></img>
                         <div className="hover-galeria">
                            <img src="img/iconmonstr-marketing-4-64.png" alt=""></img>
-                           <p></p>
                      </div>
                   </div>
 
@@ -63,7 +61,6 @@ function Portafolio(){
                      <img src={inst3} alt=""></img>
                        <div className="hover-galeria">
                           <img src="img/iconmonstr-marketing-4-64.png" alt=""></img>
-                            <p></p>
                        </div>
                    </div>
 
@@ -71,7 +68,6 @@ function Portafolio(){
                     <img src={inst9} alt=""></img>
                       <div className="hover-galeria">
                         <img src="img/iconmonstr-marketing-4-64.png" alt=""></img>
-                          <p></p>
                      </div>
                   </div>
 
@@ -79,7 +75,6 @@ function Portafolio(){
                      <img src={inst5} alt=""></img>
                       <div className="hover-galeria">
                          <img src="img/iconmonstr-marketing-4-64.png" alt=""></img>
-                         <p></p>
                       </div>
                   </div>
 
@@ -87,7 +82,6 @@ function Portafolio(){
                      <img src={inst6} alt=""></img>
                         <div className="hover-galeria">
                            <img src="img/iconmonstr-marketing-4-64.png" alt=""></img>
-                           <p></p>
                      </div>
                   </div>
 
@@ -95,7 +89,6 @@ function Portafolio(){
                       <img src={inst7} alt=""></img>
                          <div className="hover-galeria">
                             <img src="img/iconmonstr-marketing-4-64.png" alt=""></img>
-                           <p></p>
                          </div>
                   </div>
 
@@ -103,7 +96,6 @@ function Portafolio(){
                      <img src={inst8} alt=""></img>
                         <div className="hover-galeria">
                            <img src="img/iconmonstr-marketing-4-64.png" alt=""></img>
-                           <p></p>
                        </div>
                   </div>
             </div>

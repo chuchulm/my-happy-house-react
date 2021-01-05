@@ -29,7 +29,7 @@ function Footer(){
              
              
             </div>
-                 <h2 className="titulo-final">&copy; MY-HAPPY-HOUSE</h2>
+                 <h2 className="titulo-final">&copy; My Happy House</h2>
         </div>
     ) 
     

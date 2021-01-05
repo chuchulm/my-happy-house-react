@@ -42,7 +42,7 @@ function Lacasa(){
                         {imagen.map( ( img, index  )=> {
                             return(
                         
-                                <div className=" card123" key= { index } >
+                                <div className="  card123" key= { index } >
                                    <img src= { img } className="card-img-top imgcard" alt= 'myhappyhouse'  />
                                 </div>
                             )
