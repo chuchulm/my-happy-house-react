@@ -8,21 +8,21 @@ function NavBarBlog(){
     return(
         <nav className="navbar navbar-expand-lg navbar-dark  navBarColor1">
          
-        <button className="navbar-toggler color-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler color-button1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
       
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto text-center">
             <li className="nav-item active">
-              <Link to="/" className='nav-link active colorLetras' >Inicio</Link>
+              <Link to="/" className='nav-link active colorLetras1' >Inicio</Link>
             </li>
             <li className="nav-item">
             
-              <Link to="/Lacasa" className='nav-link active colorLetras'>La casita</Link>
+              <Link to="/Lacasa" className='nav-link active colorLetras1'>La casita</Link>
             </li>
             <li className="nav-item">
-              <Link to="/blog" className='nav-link active colorLetras'>Blog de Eventos</Link>
+              <Link to="/blog" className='nav-link active colorLetras1'>Blog de Eventos</Link>
             </li>
 
            

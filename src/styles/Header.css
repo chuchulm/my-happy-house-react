@@ -251,10 +251,10 @@
    }
 
    .nube{
-     width: 100px;
-     height: 80px;
+     width: 200px;
+     height: 120px;
     position: absolute;
-    top: 0px;
+    top: 70px;
     left: 130px;
     animation-name: move;
     animation-duration: 35s;
@@ -265,10 +265,10 @@
 }
 
 .nube1{
-    width: 100px;
-    height: 80px;
+    width: 200px;
+    height: 120px;
     position: absolute;
-    top: 15px;
+    top: 70px;
     right: 80px;
     animation-name: move;
     animation-duration: 35s;

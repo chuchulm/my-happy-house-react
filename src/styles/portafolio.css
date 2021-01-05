@@ -310,7 +310,7 @@
 
 
 
-@media screen and (min-width: 579px) and (max-width: 812.98px){
+@media screen and (min-width: 579px) and (max-width: 767.98px){
 
     .contenedor1{
         height: 850px;
@@ -380,7 +380,6 @@
             height: 100%;
             top: 0;
             transform: scale(0);
-            /* background: url(../img/dorao600.jpg); */
             transition: transform .5s;
             display: flex;
             justify-content: center;
@@ -427,19 +426,10 @@
     
     
 
-}
-
-
-
-
-
-
-
-
-@media screen and (min-width: 813px) and  (max-width: 1111.98px) {
+}@media screen and (min-width: 768px) and (max-width: 833.99px){
 
     .contenedor1{
-        height: 870px;
+        height: 800px;
         padding: 0px 0;
         width: 90%;
         max-width: 1000px;
@@ -482,7 +472,7 @@
         
         .imagen-port{
             width: 24%;
-            height: 250px;
+            height: 200px;
             margin-bottom: 10px;
             overflow: hidden;
             position: relative;
@@ -506,7 +496,6 @@
             height: 100%;
             top: 0;
             transform: scale(0);
-            /* background: url(../img/dorao600.jpg); */
             transition: transform .5s;
             display: flex;
             justify-content: center;
@@ -533,8 +522,8 @@
             width: 580px;
             height: 440px;
             position: absolute;
-            top: 600px;
-            left: 190px;
+            top: 500px;
+            left: 150px;
         }
 
         .zorrilla{
@@ -554,18 +543,268 @@
         }
 
 
+}
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+@media screen and (min-width: 834px) and  (max-width: 1023.98px) {
 
+    .portafolio{
+    
+        background: #e7e4e2;
+        position: relative;
         
+    }
 
 
-  
-   
-  
+    .contenedor1{
+        height: 950px;
+        padding: 0px 0;
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+        display: flex;
+         flex-direction: column;
+         position: relative;
+    }
+    
+    
+    
+    
+    .logo2{
+        width: 18%;
+        height: 180px;
+        margin: auto;
+        display: flex;
+       
+        
+    }
+    
+    
+    
+        
+        .galeria-port{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-top: 100px;
+        }
+        
+        .imagen-port{
+            width: 24%;
+            height: 230px;
+            margin-bottom: 10px;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            box-shadow: 0 0 6px rgba(0, 0, 0 , .5);
+            border-radius: 5px;
+        
+        }
+        
+        .imagen-port > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            
+        }
+        
+        .hover-galeria{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            transform: scale(0);
+            transition: transform .5s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        
+        }
+        
+        .hover-galeria img{
+            width: 50px;
+        
+        }
+        
+        .hover-galeria p{
+            color: #fff;
+        }
+    
+        .imagen-port:hover .hover-galeria{
+            transform: scale(1);
+        }    
+    
+
+        .oso-polar{
+            width: 830px;
+            position: absolute;
+            top: 560px;
+            left: 100px;
+        }
+
+        .zorrilla{
+            width: 500px;
+            position: absolute;
+            top: 235px;
+            right: -100px;
+        }
+
+        .oso{
+            width: 550px;
+            height: 400px;
+            position: absolute;
+            top: 115px;
+            left: -120px;
+        }
+    
+
 }
 
 
-@media screen and (min-width: 1112px) and  (max-width: 1380px) {
 
+      
+      
+@media screen and (min-width: 1024px) and  (max-width: 1367px) {
+      
+    .portafolio{
+    
+        background: #e7e4e2;
+        position: relative;
+        
+    }
+
+
+    .contenedor1{
+        height: 1050px;
+        padding: 0px 0;
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+        display: flex;
+         flex-direction: column;
+         position: relative;
+    }
+    
+    
+    
+    
+    .logo2{
+        width: 18%;
+        height: 200px;
+        margin: auto;
+        display: flex;
+       
+        
+    }
+    
+    
+    
+        
+        .galeria-port{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-top: 100px;
+        }
+        
+        .imagen-port{
+            width: 24%;
+            height: 280px;
+            margin-bottom: 10px;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            box-shadow: 0 0 6px rgba(0, 0, 0 , .5);
+            border-radius: 5px;
+        
+        }
+        
+        .imagen-port > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            
+        }
+        
+        .hover-galeria{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            transform: scale(0);
+            transition: transform .5s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        
+        }
+        
+        .hover-galeria img{
+            width: 50px;
+        
+        }
+        
+        .hover-galeria p{
+            color: #fff;
+        }
+    
+        .imagen-port:hover .hover-galeria{
+            transform: scale(1);
+        }    
+    
+
+        .oso-polar{
+            width: 850px;
+            position: absolute;
+            top: 690px;
+            left: 100px;
+        }
+
+        .zorrilla{
+            width: 600px;
+            position: absolute;
+            top: 215px;
+            right: -90px;
+        }
+
+        .oso{
+            width: 700px;
+            height: 480px;
+            position: absolute;
+            top: 70px;
+            left: -160px;
+        }
+    
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1112px) and  (max-width: 1380px) {
 
     .portafolio{
     
@@ -591,8 +830,8 @@
     
     
     .logo2{
-        width: 10%;
-        height: 150px;
+        width: 18%;
+        height: 250px;
         margin: auto;
         display: flex;
        
@@ -635,7 +874,6 @@
             height: 100%;
             top: 0;
             transform: scale(0);
-            /* background: url(../img/dorao600.jpg); */
             transition: transform .5s;
             display: flex;
             justify-content: center;
@@ -666,25 +904,30 @@
         }
 
         .zorrilla{
-            width: 500px;
+            width: 600px;
             position: absolute;
-            top: 210px;
-            right: 50px;
+            top: 265px;
+            right: -0px;
         }
 
         .oso{
-            width: 750px;
-            height: 500px;
+            width: 800px;
+            height: 480px;
             position: absolute;
-            top: 10px;
+            top: 125px;
             left: -160px;
         }
+    
     
         
         
   
 
 }
+
+
+
+
 
 
 

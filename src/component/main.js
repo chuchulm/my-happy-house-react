@@ -23,6 +23,7 @@ function Main(){
         
 
         <div className="container-fuid contenedor">
+            <div className="container">
             <div className="row">
                 <div className="col-12 col-sm-12 col-md-12  -pt-6 contenido-texto" >
                    <h3 data-aos="zoom-in-down" className="">My <span className='happy'>Happy</span> House</h3>
@@ -40,6 +41,8 @@ function Main(){
             </div>
            
         <img src={jirafa}  alt='imagen' className='jirafa' width="460px" height="250px" data-aos="fade-up"/> 
+            </div>
+           
 
         </div>
                 
