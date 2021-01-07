@@ -39,7 +39,7 @@
 @media(max-width: 400.98px){
     .navBarColor1{
         /* background: rgba(103, 203, 228, 0.993); */
-        background: rgb(88, 205, 239);
+        background: rgb(182, 204, 211);
         color: white;
         font-size: 25px;
         height: 60px;
@@ -56,8 +56,9 @@
         background: rgba(23, 224, 207, 0.986);
         border-radius: 5px;
         margin-right: 5px;
+        margin-bottom: 15px;
         box-shadow: 8px 7px 13px 2px rgba(0,0,0,0.98), 11px 10px 13px 3px rgba(0,0,0,0.08);
-        
+       
         
     }
     
@@ -73,7 +74,7 @@
 
     .navBarColor1{
         /* background: rgba(103, 203, 228, 0.993); */
-        background: rgb(88, 205, 239);
+        background: rgb(182, 204, 211);
         color: white;
         font-size: 25px;
         height: 60px;
@@ -90,6 +91,7 @@
         background: rgba(23, 224, 207, 0.986);
         border-radius: 5px;
         margin-right: 5px;
+        margin-bottom: 15px;
         box-shadow: 8px 7px 13px 2px rgba(0,0,0,0.98), 11px 10px 13px 3px rgba(0,0,0,0.08);
         
         
@@ -112,7 +114,7 @@
 
     .navBarColor1{
         /* background: rgba(103, 203, 228, 0.993); */
-        background: rgb(88, 205, 239);
+        background: rgb(182, 204, 211);
         color: white;
         font-size: 25px;
         height: 60px;
@@ -136,6 +138,7 @@
         background: rgba(23, 224, 207, 0.986);
         border-radius: 5px;
         margin-right: 5px;
+        margin-bottom: 15px;
         box-shadow: 8px 7px 13px 2px rgba(0,0,0,0.98), 11px 10px 13px 3px rgba(0,0,0,0.08);
         
         
@@ -165,7 +168,7 @@
 
     .navBarColor1{
         /* background: rgba(103, 203, 228, 0.993); */
-        background: rgb(88, 205, 239);
+        background: rgb(182, 204, 211);
         color: white;
         font-size: 25px;
         height: 60px;
