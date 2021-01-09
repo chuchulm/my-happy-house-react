@@ -10,17 +10,23 @@ class Blog extends React.Component{
 
     state = {
      articulos: []
+
+     
     }
 
     componentDidMount(){
         client.getEntries()
-        .then((Response)=> {
-            console.log(Response)
+        .then((response)=> {
+           console.log(response.items)
 
-            this.setState({ articulos: Response.items})
+            this.setState({ articulos: response.items})
+        
+
         })
-
+    
         .catch(console.error)
+            
+    
     }
 
     render(){
@@ -29,7 +35,7 @@ class Blog extends React.Component{
            <div>
         
              <Posts posts={this.state.articulos}/>
-             
+              
            </div>
           
           

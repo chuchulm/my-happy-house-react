@@ -153,7 +153,7 @@
 @media screen and (min-width: 401px) and (max-width: 578.98px){
 
     .navBarColor{
-        /* background: rgba(103, 203, 228, 0.993); */
+       
         background: rgb(88, 205, 239);
         color: white;
         font-size: 25px;
@@ -171,7 +171,7 @@
         margin-top: 0px;
         margin-left: 10px;
         margin-right: 20px;
-        /* background-color: rgb(20, 39, 214); */
+       
         
     }
     
@@ -229,7 +229,7 @@
 @media screen and (min-width: 579px) and (max-width: 812.98px){
 
     .navBarColor{
-        /* background: rgba(103, 203, 228, 0.993); */
+       
         background: rgb(88, 205, 239);
         color: white;
         font-size: 25px;
@@ -254,7 +254,7 @@
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 20px;
-        /* background-color: rgb(20, 39, 214); */
+      
         
     }
     
@@ -319,7 +319,7 @@
 @media screen and (min-width: 813px) and  (max-width: 1023.98px) {
 
     .navBarColor{
-        /* background: rgba(103, 203, 228, 0.993); */
+       
         background: rgb(88, 205, 239);
         color: white;
         font-size: 25px;
@@ -344,7 +344,7 @@
         margin-top: 0px;
         margin-left: 10px;
         margin-right: 20px;
-        /* background-color: rgb(20, 39, 214); */
+      
         
     }
     
@@ -403,7 +403,7 @@
 @media screen and (min-width: 1024px) and  (max-width: 1367px) {
       
     .navBarColor{
-        /* background: rgba(103, 203, 228, 0.993); */
+       
         background: rgb(88, 205, 239);
         color: white;
         font-size: 25px;
@@ -428,7 +428,7 @@
         margin-top: 100px;
         margin-left: 10px;
         margin-right: 20px;
-        /* background-color: rgb(20, 39, 214); */
+      
         
     }
     

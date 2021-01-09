@@ -461,7 +461,7 @@ stroke: none;
     .total{
         background: #274cc7;
         width: 100%;
-        height: 790px;
+        height: 820px;
        
         
     }
@@ -471,7 +471,7 @@ stroke: none;
         text-align: center;
         font-family: 'Amatic SC', cursive;
         font-family: 'Itim', cursive;
-        font-size: 28px;
+        font-size: 35px;
         margin-top: -50px;
         margin-bottom: 100px;
         
@@ -485,7 +485,7 @@ stroke: none;
 
     .carouselHouse{
         width: 100%;
-        height: 390px;
+        height: 450px;
         border-radius: 5px;
         object-fit: cover;
         
@@ -496,7 +496,7 @@ stroke: none;
         margin: auto;
         background: #274cc7ec;
         width: 95%;
-        height: 430px;
+        height: 490px;
         border: solid rgb(206, 37, 212) 20px;
         border-radius: 30px;
         margin-top: 0px;
@@ -507,8 +507,8 @@ stroke: none;
 
     .zorro{
         position: absolute;
-        top: -05px;
-        left: 600px;
+        top:  3px;
+        left: 650px;
         width: 500px;
         height: 310px;
         z-index: 1;
