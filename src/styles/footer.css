@@ -43,10 +43,12 @@
      font-size: 24px;
      margin: 20px 0 0 0;
      color: #fffbfb;
+     font-size: 15px;
  }
 
 
- .mapa{
+    
+.mapa{
      width: 350px;
      height: 100px;
      border: 1px solid red;
@@ -95,6 +97,7 @@
         margin: 20px 0 0 0;
         color: #fffbfb;
         margin-top: 170px;
+        font-size: 15px;
     }
 
     .mapa{
@@ -148,6 +151,7 @@
             margin: 20px 0 0 0;
             color: #fffbfb;
             margin-top: 170px;
+            font-size: 15px;
         }
     
         .mapa{
@@ -213,6 +217,7 @@
          font-size: 20px;
          margin: 20px 0 0 0;
          color: #fffbfb;
+         font-size: 15px;
      }
     
     
@@ -279,6 +284,7 @@
          font-size: 20px;
          margin: 20px 0 0 0;
          color: #fffbfb;
+         font-size: 15px;
      }
     
     

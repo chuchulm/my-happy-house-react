@@ -29,7 +29,7 @@ function Portafolio(){
 
    return(
       <section className="portafolio">
-          <div className="wave6" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" className="wave7">
+          <div className="wave6" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" className="mr-auto wave7">
              <path d="M-24.60,26.94 C149.21,110.81 271.49,-49.99 500.22,40.75 L500.00,0.00 L0.00,0.00 Z" className="wave8"></path></svg>
          </div>
 

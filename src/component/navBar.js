@@ -22,13 +22,13 @@ function NavBar(){
       
       
         <nav className="navbar navbar-expand-lg navbar-dark  navBarColor">
-          <img src={Logo} alt='imagen' className='logo-navBar animate__backInUp'  data-aos="fade-right"/>
+          <img src={Logo} alt='imagen' className='logo-navBar animate__backInUp  '  data-aos="fade-right"/>
         <button className="navbar-toggler color-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
       
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mr-auto text-center" data-aos="flip-up">
+          <ul className="navbar-nav mr-auto mb-2 mb-lg-0 text-center" data-aos="flip-up">
             
             <li className="nav-item active">
               <Link to="/" className='nav-link active colorLetras' >Inicio</Link>
@@ -58,3 +58,7 @@ function NavBar(){
     )
 }
 export default NavBar;
+
+
+
+// navbar-nav mr-auto text-center
