@@ -47,9 +47,9 @@ function NavBar(){
             </li>
           </ul>
           <div className='d-flex flex-row justify-content-center' data-aos="fade-left">
-          <a href="https://www.facebook.com/myhappyhouse.cl" target="blank" title="Flaticon"><img src={facebook} alt='imagen'  width="30px" height="30px" className='redes'/></a>
-          <a href="https://www.instagram.com/myhappyhouse.cl/" target="blank" title="Flaticon"><img src={instagram} alt='imagen'  width="30px" height="30px" className='redes'/></a>
-          <a href="https://api.whatsapp.com/send?phone=+56945832173&text=Bienvenidos%20a%20My%20Happy%20House%20estamos%20para%20ayudarte" target="blank" title="Flaticon"><img src={whatsapp} alt='imagen'  width="30px" height="30px" className='redes1'/></a>
+          <a href="https://www.facebook.com/myhappyhouse.cl" target="blank" title="Facebook"><img src={facebook} alt='imagen'  width="30px" height="30px" className='redes'/></a>
+          <a href="https://www.instagram.com/myhappyhouse.cl/" target="blank" title="Instagram"><img src={instagram} alt='imagen'  width="30px" height="30px" className='redes'/></a>
+          <a href="https://api.whatsapp.com/send?phone=+56945832173&text=Bienvenidos%20a%20My%20Happy%20House%20estamos%20para%20ayudarte" target="blank" title="WhatsApp"><img src={whatsapp} alt='imagen'  width="30px" height="30px" className='redes1'/></a>
           </div>
           
         </div>
