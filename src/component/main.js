@@ -35,7 +35,7 @@ function Main(){
                     
                 </div>
                 <div className=" col-sm-12 col-md-6 col-lg-6" data-aos="fade-left">
-                    <video className="video-about-us" controls autoPlay loop >
+                    <video className="video-about-us" controls autoPlay loop>
                         <source src={video} type="video/mp4"></source>
                     </video>
                 </div>
