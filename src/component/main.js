@@ -26,7 +26,7 @@ function Main(){
             <div className="">
             <div className="row">
                 <div className="col-12 col-sm-12 col-md-12  -pt-6 contenido-texto" >
-                   <h3 data-aos="zoom-in-down" className="">My <span className='happy'>Happy</span> HISTÓRY</h3>
+                   <h3 data-aos="zoom-in-down" className="">My <span className='happy'>Happy</span> HISTORY</h3>
                 </div>
     
                 <div className=" col-sm-12 col-md-6 col-lg-6 contenido-textos" data-aos="zoom-in-right">
@@ -35,7 +35,7 @@ function Main(){
                     
                 </div>
                 <div className=" col-sm-12 col-md-6 col-lg-6" data-aos="fade-left">
-                    <video className="video-about-us" controls autoPlay>
+                    <video className="video-about-us" controls autoPlay loop >
                         <source src={video} type="video/mp4"></source>
                     </video>
                 </div>
