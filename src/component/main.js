@@ -23,14 +23,15 @@ function Main(){
         
 
         <div className="container-fuid contenedor">
-            <div className="container">
+            <div className="">
             <div className="row">
                 <div className="col-12 col-sm-12 col-md-12  -pt-6 contenido-texto" >
-                   <h3 data-aos="zoom-in-down" className="">My <span className='happy'>Happy</span> House</h3>
+                   <h3 data-aos="zoom-in-down" className="">My <span className='happy'>Happy</span> HISTÓRY</h3>
                 </div>
     
                 <div className=" col-sm-12 col-md-6 col-lg-6 contenido-textos" data-aos="zoom-in-right">
-                    <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis illo blanditiis incidunt mollitia repudiandae recusandae beatae, itaque modi pariatur repellat eos, laborum facilis architecto quo, fugit voluptatum fuga vitae eveniet.</p>
+                    <p >My Happy House nace de la vocación de una madre educadora Mariela Morales y su hija Mariela Riverón, decididas a aportar a la sociedad a través de la enseñanza en etapa de educación inicial reconociendo su importancia en la formación del ser y el impacto que tiene en su vida como adulto sembrar valores morales y sociales indispensables para su futuro. Mariela mamá comenzó este recorrido hace 20 años atrás, fundando su primera institución de educación inicial llamada “MI CASITA”, después de 5 años, inaugura su segunda institución que se mantiene aún vigente y operativa, dejando atrás la hermosa casita para expandirse y ofrecer sus servicios en un espacio más grande pero siempre quedando en su corazón y recuerdo de su familia. 
+                        Como madre de 4 hijas, Mariela la tercera de ellas fue la más influenciada por esta hermosa práctica de educación, trabajando juntas la mayor parte de su vida es cuando deciden que ha llegado el momento de realizar un proyecto desde cero juntas que refleje toda esa experiencia adquirida a lo largo de los años y con la influencia de la tecnología y la innovación ofrecer un servicio de calidad único en Santiago de Chile y en memoria de nuestra hermosa casita decidimos nombrar “MY HAPPY HOUSE” nuestro lindo proyecto..</p>
                     
                 </div>
                 <div className=" col-sm-12 col-md-6 col-lg-6" data-aos="fade-left">
@@ -40,7 +41,7 @@ function Main(){
                 </div>
             </div>
            
-        <img src={jirafa}  alt='imagen' className='jirafa' width="460px" height="250px" data-aos="fade-up"/> 
+        <img src={jirafa}  alt='imagen' className='jirafa'  data-aos="fade-up"/> 
             </div>
            
 

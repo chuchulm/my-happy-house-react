@@ -536,7 +536,102 @@ stroke: none;
 
 
 
-@media screen and (min-width: 1241px) and  (max-width: 1368px) {
+@media screen and (min-width: 1241px) and  (max-width: 1368.99px) {
+
+    .total{
+        background: #274cc7;
+        width: 100%;
+        height: 1200px;
+        position: relative;
+       
+        
+    }
+    
+    .tituloCarousel{
+    
+        padding-top: 50px;
+        color: rgb(0, 255, 255);
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        font-family: 'Itim', cursive;
+        font-size: 45px;
+        margin-top: 30px;
+        
+    }
+    
+    .tituloCarousel h3{
+        font-size: 40px;
+    }
+    
+    .VEN{
+        color: rgb(240, 187, 12);
+        font-family: 'Amatic SC', cursive;
+        font-family: 'Itim', cursive;
+    }
+    
+    .carouselHouse{
+        width: 100%;
+        height: 600px;
+        border-radius: 5px;
+        object-fit: cover;
+        
+    }
+    
+    .carouselHouse1{
+        
+        margin: auto;
+        background: #274cc7ec;
+        width: 90%;
+        height: 640px;
+        border: solid rgb(206, 37, 212) 20px;
+        border-radius: 30px;
+        margin-top: 120px;
+        box-shadow: 0 0 6px rgba(0, 0, 0 , .8);
+        
+        
+    }
+    
+    .zorro{
+        position: absolute;
+        top: 10px;
+        right:-220px;
+        width: 750px;
+        height: 450px;
+        
+    }
+
+
+    .aeiou{
+        width: 600px;
+        height: 400px;
+        position: absolute;
+        top: 970px;
+        left: 10px;
+        
+
+    }
+    
+    .wave1{
+    height: 100px;
+    width: 100%;
+    
+    }
+    .wave2{
+     height: 150%;
+     width: 100%;
+     
+    }
+    .wave3{
+    stroke: none;
+     fill: #9ece1bfa;
+    }
+  
+
+}
+
+
+
+@media screen and (min-width: 1369px) and  (max-width: 1452px) {
 
     .total{
         background: #274cc7;
@@ -628,18 +723,5 @@ stroke: none;
   
 
 }
-
-
-
-
-  
-
- 
-
-  
-
-
-
-
 
 

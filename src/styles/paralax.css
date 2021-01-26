@@ -124,7 +124,7 @@
         object-fit: cover;
         background-attachment: fixed;
           position: relative;
-          height: 450px;
+          height: 400px;
           width: 100%;
           border: 20px;
           
@@ -140,64 +140,107 @@
     
     
     
-    
-    @media screen and (min-width: 813px) and  (max-width: 1111.98px) {
-    
-     
-      .paralax{
-
  
-        background: #c0c0aa;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, hsla(184, 100%, 55%, 0.87), hsla(60, 15%, 71%, 0)), url(../img/casa-sincable.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, hsla(327, 100%, 50%, 0.116), hsla(60, 15%, 71%, 0)), url(../img/casa-sincable.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        object-fit: cover;
-        background-attachment: fixed;
-        position: relative;
+    
+    
+  @media screen and (min-width: 1112px) and  (max-width: 1380.99px) {
+  
+    .paralax{
+
+      background: #c0c0aa;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, hsla(184, 100%, 55%, 0.87), hsla(60, 15%, 71%, 0)), url(../img/casa-sincable.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, hsla(327, 100%, 50%, 0.116), hsla(60, 15%, 71%, 0)), url(../img/casa-sincable.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background-size: cover;
+      object-fit: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      position: relative;
+        width: 100%;
+        height: 700px;
         
-          width: 100%;
-          height: 600px;
-          
-          
-         
-          
-      
     } 
-      
-       
-    
-    
-    
-    
-      
+
+}  
        
       
+
+
+
+    /* @media screen and (min-width: 401px) and (max-width: 535.98px){
+    
+  
+
+    }
+          
+          
+          
+          
+    @media screen and (min-width: 536px) and (max-width: 735.98px){
+    
+    
+    
+    }
+    
+    @media screen and (min-width: 736px) and (max-width: 767px){
+    
+    
+    
     }
     
     
-    @media screen and (min-width: 1112px) and  (max-width: 1380.99px) {
     
-      .paralax{
-
- 
-        background: #c0c0aa;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, hsla(184, 100%, 55%, 0.87), hsla(60, 15%, 71%, 0)), url(../img/casa-sincable.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, hsla(327, 100%, 50%, 0.116), hsla(60, 15%, 71%, 0)), url(../img/casa-sincable.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        background-size: cover;
-        object-fit: cover;
-        background-position: center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        position: relative;
-          width: 100%;
-          height: 700px;
+    
+    
+    @media screen and (min-width: 768px) and (max-width: 833.99px){
+    
+    
+    
+    }
           
-        
           
+          
+          
+          
+          
+          
+          
+          
+          
+    @media screen and (min-width: 834px) and  (max-width: 1023.98px) {
+    
       
-    } 
+    
+    
+    }
+    
+    
+    
+          
+          
+   
+    
+    
+    
+    
+  
+    
+    
+    @media screen and (min-width: 1380px) and  (max-width: 1450px) {
+          
+     
     }  
-       
-      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     */

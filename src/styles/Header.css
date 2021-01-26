@@ -218,7 +218,7 @@
     position: absolute;
     top: 70px;
     left: 130px;
-    animation: move 30s infinite linear alternate;
+    animation: move 35s infinite linear alternate;
 
    }
 
@@ -275,7 +275,7 @@
        position: absolute;
        top: 50px;
        left: 600px;
-       animation: move 30s infinite linear alternate;
+       animation: move 35s infinite linear alternate;
    }
    
    .nube1{

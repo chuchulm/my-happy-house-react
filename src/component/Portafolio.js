@@ -14,6 +14,10 @@ import inst6 from '../img/instalacion6.png';
 import inst7 from '../img/instalacion7.png';
 import inst8 from '../img/instalacion8.png';
 import inst9 from '../img/instalacion9.png';
+import happy1 from '../img/happy-1.jpeg';
+import happy2 from '../img/happy-2.jpeg';
+import happy3 from '../img/happy-3.jpeg';
+import happy4 from '../img/happy-4.jpeg';
 
 
 
@@ -42,7 +46,7 @@ function Portafolio(){
          <div className="contenedor1">
             <div className="galeria-port">
                   <div className="imagen-port" data-aos="fade-down-right">
-                     <img src={inst1} alt=""></img>
+                     <img src={happy3} alt=""></img>
                       <div className="hover-galeria">
                          <img src={""} alt=""></img>
                       </div>
@@ -58,42 +62,42 @@ function Portafolio(){
                    
 
                    <div className="imagen-port" data-aos="zoom-in-down">
-                     <img src={inst3} alt=""></img>
+                     <img src={happy2} alt=""></img>
                        <div className="hover-galeria">
                           <img src="img/iconmonstr-marketing-4-64.png" alt=""></img>
                        </div>
                    </div>
 
                   <div className="imagen-port" data-aos="fade-down-left">
-                    <img src={inst9} alt=""></img>
+                    <img src={inst3} alt=""></img>
                       <div className="hover-galeria">
                         <img src="img/iconmonstr-marketing-4-64.png" alt=""></img>
                      </div>
                   </div>
 
                   <div className="imagen-port" data-aos="fade-up-right">
-                     <img src={inst5} alt=""></img>
+                     <img src={inst1} alt=""></img>
                       <div className="hover-galeria">
                          <img src="img/iconmonstr-marketing-4-64.png" alt=""></img>
                       </div>
                   </div>
 
                   <div className="imagen-port" data-aos="fade-up">
-                     <img src={inst6} alt=""></img>
+                     <img src={happy4} alt=""></img>
                         <div className="hover-galeria">
                            <img src="img/iconmonstr-marketing-4-64.png" alt=""></img>
                      </div>
                   </div>
 
                   <div className="imagen-port" data-aos="fade-left">
-                      <img src={inst7} alt=""></img>
+                      <img src={inst8} alt=""></img>
                          <div className="hover-galeria">
                             <img src="img/iconmonstr-marketing-4-64.png" alt=""></img>
                          </div>
                   </div>
 
                   <div className="imagen-port" data-aos="fade-up-left">
-                     <img src={inst8} alt=""></img>
+                     <img src={happy1} alt=""></img>
                         <div className="hover-galeria">
                            <img src="img/iconmonstr-marketing-4-64.png" alt=""></img>
                        </div>
