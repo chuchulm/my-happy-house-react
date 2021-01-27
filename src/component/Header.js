@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Header.css'
-import imagenHeader from '../img/imagenHeader2.jpg'
+import imagenHeader from '../img/imagenHeader2-sol.jpg'
 import nubeFondo from '../img/nubeFondo.png'
 import Venado from '../img/aeiou.png'
 import NavBar from './navBar'
@@ -15,7 +15,7 @@ function Header() {
              <img src={imagenHeader} alt='imagen'   className='imgPrincipal'/>
              <img src={nubeFondo}  alt='imagen' className='nube' width="260px" height="150px"/>
              <img src={nubeFondo}  alt='imagen' className='nube1' width="260px" height="150px"/>
-             <img src={Venado}  alt='imagen' className='venado' width="460px" height="250px"/>
+             {/* <img src={Venado}  alt='imagen' className='venado' width="460px" height="250px"/> */}
         </div>
        </>
     )
