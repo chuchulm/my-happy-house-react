@@ -387,7 +387,7 @@
 
   .contenedor{
       background: #9cc727ec;
-      height: 500px;
+      height: 50vh;
       display: flex;
       position: relative;
       
@@ -396,9 +396,9 @@
 
 
   .video-about-us{
-      width: 350px;
+      width: 97%;
       margin: auto;
-      margin-bottom: 100px;
+    
       
       
     } 
@@ -412,7 +412,7 @@
       text-align: center;
       color: rgb(239, 243, 243);
       font-family: 'Itim', cursive;
-      font-size: 25px;
+      font-size: 1.56em;
    
     }
   
@@ -421,10 +421,10 @@
       color: rgb(255, 255, 255);
       font-weight: 300;
       text-align: center;
-      font-size: 9px;
+      font-size: 0.56em;
       font-family: 'Itim', cursive;  
       margin: auto;
-      margin-left: 20px;
+      margin-left: 1.5em;
       text-align: justify;
       
       
@@ -435,10 +435,10 @@
   
   
   .jirafa{
-      width: 340px;
-      height: 200px;
+      width: 21.25em;
+      height: 12.5em;
       position: absolute;
-      top: 338px;
+      top: 68%;
       right: 0px;
     }
 

@@ -18,6 +18,7 @@ import casa12 from '../img/casa12.jpeg';
 import casa13 from '../img/casa13.jpeg';
 import casa14 from '../img/casa14.jpeg';
 import casa15 from '../img/casa15.jpeg';
+import Footer from './footer';
 
 
 
@@ -38,7 +39,7 @@ function Lacasa(){
          
             <div className="casa">
                 <SRLWrapper>
-                    <div className='card12'>
+                    <div className='card12 pb-5' >
                         {imagen.map( ( img, index  )=> {
                             return(
                         
@@ -52,7 +53,7 @@ function Lacasa(){
                 </SRLWrapper>
             </div>
        
-            
+            <Footer/>
         </> 
     )
 }

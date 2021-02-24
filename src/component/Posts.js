@@ -1,6 +1,7 @@
 import React from 'react'
 import Post from './post'
 import NavBarBlog from '../component/navBarBlog'
+import Footer from './footer'
 
 
 const Posts = ({posts}) => {
@@ -8,7 +9,8 @@ const Posts = ({posts}) => {
 
     
     return (
-        <div>
+        <>
+        <div className=''>
             
             <NavBarBlog/>
 
@@ -17,6 +19,8 @@ const Posts = ({posts}) => {
                 <Post article={article} key={index}/>)}
                
         </div>
+        <Footer/>
+        </>
     )
 }
 
