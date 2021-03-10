@@ -1,0 +1,340 @@
+.footerPrincipal{
+    background: #dd3838;  
+
+
+    height: 350px;
+    padding: 60px 30px 0px 0;
+    margin: auto;
+    overflow: hidden;
+    
+    
+}
+
+.contenedor-footerPrincipal{
+    display: flex;
+   justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 200px;
+    border-bottom: 2px solid #ccc;
+    height: 150px;
+    margin-left: 120px;
+
+}
+
+.content-fooPrincipal{
+    text-align: center;
+
+}
+
+.content-fooPrincipal h4{
+   color: rgb(255, 255, 255);
+   border-bottom: 3px solid #346b68;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-fooPrincipal p{
+    color: rgb(255, 255, 255);
+    
+ }
+ .titulo-finalPrincipal{
+     text-align: center;
+     font-size: 24px;
+     margin: 20px 0 0 0;
+     color: #fffbfb;
+     font-size: 15px;
+ }
+
+
+    
+.mapaPrincipal{
+     width: 350px;
+     height: 100px;
+     border: 1px solid red;
+     border-radius: 10px;
+ }
+
+
+
+
+
+
+  @media(max-width: 400.98px){
+
+    .footerPrincipal{
+        background: #dd3838; 
+        height: 430px;
+        padding: 0px 0 0px 0;
+        margin: auto;
+        overflow: hidden;
+        
+        }
+    
+        .contenedor-footerPrincipal{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 80%;
+            margin: auto;
+            padding-bottom: 0px;
+            border-bottom: 1px solid #ccc;
+            height: 250px;
+     
+            
+        
+        }
+    
+        .content-fooPrincipal{
+            text-align: center;
+            /* margin-top: 10px; */
+        
+        }
+
+        .content-fooPrincipal h4{
+            color: rgb(255, 255, 255);
+            border-bottom: 3px solid #346b68;
+             padding-bottom: 5px;
+             margin-bottom: 10px;
+             font-size: 18px;
+             
+         }
+         
+         .content-fooPrincipal p{
+             color: rgb(255, 255, 255);
+             font-size: 12px;
+             
+          }
+    
+        .titulo-finalPrincipal{
+            text-align: center;
+            font-size: 24px;
+            margin: 0 0 0 0;
+            color: #fffbfb;
+            margin-top: 135px;
+            font-size: 15px;
+        }
+    
+        .mapaPrincipal{
+            width: 340px;
+            height: 130px;
+            border: 1px solid red;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            
+        }
+    
+    
+
+ } 
+
+
+ @media screen and (min-width: 401px) and (max-width: 578.98px){
+
+    .footerPrincipal{
+        background: #dd3838; 
+        height: 430px;
+        padding: 0px 0 0px 0;
+        margin: auto;
+        overflow: hidden;
+        
+        }
+    
+        .contenedor-footerPrincipal{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 80%;
+            margin: auto;
+            padding-bottom: 0px;
+            border-bottom: 1px solid #ccc;
+            height: 250px;
+     
+            
+        
+        }
+    
+        .content-fooPrincipal{
+            text-align: center;
+            /* margin-top: 10px; */
+        
+        }
+
+        .content-fooPrincipal h4{
+            color: rgb(255, 255, 255);
+            border-bottom: 3px solid #346b68;
+             padding-bottom: 5px;
+             margin-bottom: 10px;
+             font-size: 18px;
+             
+         }
+         
+         .content-fooPrincipal p{
+             color: rgb(255, 255, 255);
+             font-size: 12px;
+             
+          }
+    
+        .titulo-finalPrincipal{
+            text-align: center;
+            font-size: 24px;
+            margin: 0 0 0 0;
+            color: #fffbfb;
+            margin-top: 135px;
+            font-size: 15px;
+        }
+    
+        .mapaPrincipal{
+            width: 340px;
+            height: 130px;
+            border: 1px solid red;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            
+        }
+    
+     
+  
+  }
+  
+  
+  
+  
+  @media screen and (min-width: 579px) and (max-width: 767.98px){
+  
+    .footerPrincipal{
+        background: #dd3838;  
+        height: 350px;
+        padding: 40px 30px 0px 30px;
+        margin: auto;
+        overflow: hidden;
+        
+        
+    }
+    
+    .contenedor-footerPrincipal{
+        display: flex;
+       justify-content: space-between;
+        width: 100%;
+        margin: auto;
+        border-bottom: 2px solid #ccc;
+        height: 150px;
+        /* margin-left: 20px; */
+    
+    }
+    
+    .content-fooPrincipal{
+        text-align: center;
+        font-size: 12px;
+    
+    }
+    
+    .content-fooPrincipal h4{
+        color: rgb(255, 255, 255);
+        border-bottom: 3px solid #346b68;
+        font-size: 20px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .content-fooPrincipal p{
+        color: rgb(255, 255, 255);
+        
+     }
+     .titulo-finalPrincipal{
+         text-align: center;
+         font-size: 20px;
+         margin: 20px 0 0 0;
+         color: #fffbfb;
+         font-size: 15px;
+     }
+    
+    
+     .mapaPrincipal{
+         width: 250px;
+         height: 100px;
+         border: 1px solid red;
+         border-radius: 10px;
+     }
+    
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (min-width: 768px) and  (max-width: 1111.98px) {
+  
+    .footerPrincipal{
+        background: #dd3838;  
+        height: 300px;
+        padding: 0px 60px 40px;
+        margin: auto;
+        overflow: hidden;
+        
+        
+    }
+    
+    .contenedor-footerPrincipal{
+        display: flex;
+        justify-content: space-between;
+         width: 100%;
+        margin: auto;
+        
+        
+        
+    
+    }
+    
+    .content-fooPrincipal{
+        text-align: center;
+        font-size: 12px;
+    
+    }
+    
+    .content-fooPrincipal h4{
+        color: rgb(255, 255, 255);
+        border-bottom: 3px solid #346b68;
+        font-size: 20px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .content-fooPrincipal p{
+        color: rgb(255, 255, 255);
+        
+     }
+     .titulo-finalPrincipal{
+         text-align: center;
+         margin: 20px 0 0 0;
+         color: #fffbfb;
+         font-size: 15px;
+     }
+    
+    
+     .mapaPrincipal{
+         width: 20em;
+         height: 100px;
+         border: 1px solid red;
+         border-radius: 10px;
+        
+     }
+    
+    
+    
+    
+    
+  }
+  
+  
+  @media screen and (min-width: 1112px) and  (max-width: 1380.99px) {
+  
+    
+    
+  }  
+     
+    
