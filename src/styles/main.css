@@ -68,34 +68,29 @@
 @media(max-width: 400.98px){
   .contenedor{
     background: #9cc727ec;
-    height: 880px;
+    height: 830px;
     display: flex;
     flex-direction: column;
-      
+     
   }
   
-  .sobre-nosotros{
-    height: 1100px;
-    width: 100%;
-    margin: auto;
-  }
+
     
   .video-about-us{
-    width: 360px;
+    width: 100%;
     margin: auto;
     border-radius: 5px;
-    margin-left: 8px;
+    padding: 10px;
   }
 
   .contenido-texto h3{
-    padding-top: 20px;
     margin-top: 30px;
     margin-bottom: 10px;
     text-align: center;
     color: rgb(239, 243, 243);
     font-family: 'Amatic SC', cursive;
     font-family: 'Itim', cursive;
-    font-size: 25px;
+    font-size: 20px;
 
   }
       
@@ -118,16 +113,75 @@
     width: 350px;
     height: 190px;
     position: absolute;
-    top: 1000px;
+    top: 950px;
     left: 0;
   }
         
         
         
             
-} 
+}
     
+    
+@media screen and (min-width: 401px) and (max-width: 535.98px){
+    
+  .contenedor{
+    background: #9cc727ec;
+    height: 830px;
+    display: flex;
+    flex-direction: column;
+     
+  }
+  
 
+    
+  .video-about-us{
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .contenido-texto h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(239, 243, 243);
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+
+  }
+      
+      
+  .contenido-textos p{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-align: justify;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Itim', cursive;  
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding: 10px;
+  }    
+  
+  
+  
+  .jirafa{
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    top: 970px;
+    left: 0;
+  }
+        
+
+}
+      
+      
+      
+      
 @media screen and (min-width: 536px) and (max-width: 577.8px){
 
   .contenedor{
@@ -152,14 +206,13 @@
   
   .contenido-texto h3{
     
-      margin-top: 50px;
+      
       margin-bottom: 20px;
       text-align: center;
       color: rgb(239, 243, 243);
       font-family: 'Amatic SC', cursive;
       font-family: 'Itim', cursive;
       font-size: 30px;
-      z-index: -100;
          
     }
   
@@ -174,7 +227,6 @@
       margin: auto;
       padding: 1.25em;
       text-align: justify;
-      z-index: -100;
       
       
     } 
