@@ -3,7 +3,7 @@ import '../styles/carousel.css'
 import Aos from "aos"
 import "aos/dist/aos.css"
 import img2 from '../img/myHouse2.jpg'
-import img3 from '../img/myHouse3.jpg'
+import img3 from '../img/cambioFoto.jpeg'
 import casa8 from '../img/casa8.jpeg';
 import zorro from '../img/zorro.png'
 

@@ -60,65 +60,11 @@
 
 
 
- @media(max-width: 400.98px){
-
-    .footer{
-    background: #dd3838;  
-    height: 470px;
-    padding: 0px 0 0px 0;
-    margin: auto;
-    overflow: hidden;
-    
-    }
-
-    .contenedor-footer{
-        display: flex;
-       justify-content: space-between;
-       flex-direction: column;
-        width: 80%;
-        margin: auto;
-        padding-bottom: 0px;
-        /* border-bottom: 1px solid #ccc; */
-        height: 250px;
- 
-        
-    
-    }
-
-    .content-foo{
-        text-align: center;
-    
-    
-    }
-
-    .titulo-final{
-        text-align: center;
-        font-size: 24px;
-        margin: 20px 0 0 0;
-        color: #fffbfb;
-        margin-top: 170px;
-        font-size: 15px;
-    }
-
-    .mapa{
-        width: 300px;
-        height: 120px;
-        border: 1px solid red;
-        border-radius: 10px;
-        margin-bottom: 20px;
-    }
-
-
-
-
- }
-
-
- @media screen and (min-width: 401px) and (max-width: 578.98px){
+  @media(max-width: 400.98px){
 
     .footer{
         background: #dd3838;  
-        height: 470px;
+        height: 300px;
         padding: 0px 0 0px 0;
         margin: auto;
         overflow: hidden;
@@ -141,16 +87,31 @@
     
         .content-foo{
             text-align: center;
-        
+            margin-top: 10px;
         
         }
+
+        .content-foo h4{
+            color: rgb(255, 255, 255);
+            border-bottom: 3px solid #346b68;
+             padding-bottom: 5px;
+             margin-bottom: 10px;
+             font-size: 18px;
+             
+         }
+         
+         .content-foo p{
+             color: rgb(255, 255, 255);
+             font-size: 12px;
+             
+          }
     
         .titulo-final{
             text-align: center;
             font-size: 24px;
-            margin: 20px 0 0 0;
+            margin: 0 0 0 0;
             color: #fffbfb;
-            margin-top: 170px;
+            margin-top: 25px;
             font-size: 15px;
         }
     
@@ -160,6 +121,76 @@
             border: 1px solid red;
             border-radius: 10px;
             margin-bottom: 20px;
+            display: none;
+        }
+    
+    
+
+ } 
+
+
+ @media screen and (min-width: 400px) and (max-width: 578.98px){
+
+    .footer{
+        background: #dd3838;  
+        height: 300px;
+        padding: 0px 0 0px 0;
+        margin: auto;
+        overflow: hidden;
+        
+        }
+    
+        .contenedor-footer{
+            display: flex;
+           justify-content: space-between;
+           flex-direction: column;
+            width: 80%;
+            margin: auto;
+            padding-bottom: 0px;
+            /* border-bottom: 1px solid #ccc; */
+            height: 250px;
+     
+            
+        
+        }
+    
+        .content-foo{
+            text-align: center;
+            margin-top: 10px;
+        
+        }
+
+        .content-foo h4{
+            color: rgb(255, 255, 255);
+            border-bottom: 3px solid #346b68;
+             padding-bottom: 5px;
+             margin-bottom: 10px;
+             font-size: 18px;
+             
+         }
+         
+         .content-foo p{
+             color: rgb(255, 255, 255);
+             font-size: 12px;
+             
+          }
+    
+        .titulo-final{
+            text-align: center;
+            font-size: 24px;
+            margin: 0 0 0 0;
+            color: #fffbfb;
+            margin-top: 25px;
+            font-size: 15px;
+        }
+    
+        .mapa{
+            width: 340px;
+            height: 130px;
+            border: 1px solid red;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: none;
         }
     
     
@@ -171,7 +202,7 @@
   
   
   
-  @media screen and (min-width: 579px) and (max-width: 812.98px){
+  @media screen and (min-width: 579px) and (max-width: 767.98px){
   
     .footer{
         background: #dd3838;  
@@ -238,12 +269,12 @@
   
   
   
-  @media screen and (min-width: 813px) and  (max-width: 1111.98px) {
+  @media screen and (min-width: 768px) and  (max-width: 1111.98px) {
   
     .footer{
         background: #dd3838;  
-        height: 350px;
-        padding: 40px 30px 0px 30px;
+        height: 300px;
+        padding: 0px 60px 40px;
         margin: auto;
         overflow: hidden;
         
@@ -252,16 +283,17 @@
     
     .contenedor-footer{
         display: flex;
-       justify-content: space-between;
-        width: 100%;
+        justify-content: space-between;
+         width: 100%;
         margin: auto;
-        border-bottom: 2px solid #ccc;
-        height: 150px;
-        /* margin-left: 20px; */
+        
+        
+        
     
     }
     
     .content-foo{
+        padding-top: 60px;
         text-align: center;
         font-size: 12px;
     
@@ -281,7 +313,6 @@
      }
      .titulo-final{
          text-align: center;
-         font-size: 20px;
          margin: 20px 0 0 0;
          color: #fffbfb;
          font-size: 15px;
@@ -293,6 +324,7 @@
          height: 100px;
          border: 1px solid red;
          border-radius: 10px;
+         display: none;
      }
     
     

@@ -25,6 +25,7 @@
     width: 750px;
     margin-top: 20px;
     margin-bottom: 25px;
+    
 }
 
 
@@ -51,9 +52,8 @@
 
 
 .card-img-top{
-    max-width: 750px;
-    width: 100%;
-    height: 620px;
+    object-fit: cover;
+    height: 650px;
 }
 
 
@@ -61,7 +61,7 @@
 
 
 
-@media(max-width: 400.98px){
+@media(min-width: 373px) and (max-width: 535.98px){
     .contenedor-blog{
     
         background: #c0c0aa;  /* fallback for old browsers */
@@ -78,8 +78,22 @@
     }
     
     
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        width: 450px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    
+    }
+    
+    
     .caja-fondo{
-        
+       max-width: 140rem;
+       width: 100%;
       box-shadow: 0px 10px 10px 6px rgba(0,0,0,.6);
       
     }
@@ -88,59 +102,26 @@
     .blog-titulo{
         color: #1CD8D2;
         font-weight: 700;
+        font-size: 15px;
     }
     
     .blog-texto{
         text-align: left;
        text-align: justify;
         margin: auto;
-        font-size: 12px;
+        font-size: 10px;
         
         
     }
-          
-              
-  }
-
-
-@media screen and (min-width: 401px) and (max-width: 535.98px){
-  
-    .contenedor-blog{
     
-    background: #c0c0aa;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(184, 100%, 55%, 0.87), hsla(60, 15%, 71%, 0)), url(../img/tambores.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(327, 100%, 50%, 0.116), hsla(60, 15%, 71%, 0)), url(../img/tambores.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    align-items: center;
-    background-position: center;
-        
-                 
-        
+    
+    .card-img-top{
+        object-fit: cover;
+        height: 650px;
+        height: 300px;
     }
     
     
-    .caja-fondo{
-        
-    box-shadow: 0px 10px 10px 6px rgba(0,0,0,.6);
-      
-    }
-    
-    
-    .blog-titulo{
-    color: #1CD8D2;
-    font-weight: 700;
-    }
-    
-    .blog-texto{
-    text-align: left;
-    text-align: justify;
-    margin: auto;
-    font-size: 12px;
-        
-        
-    }
 
 }
           
@@ -165,26 +146,50 @@
     }
     
     
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        width: 450px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    
+    }
+    
+    
     .caja-fondo{
-        
-    box-shadow: 0px 10px 10px 6px rgba(0,0,0,.6);
+       max-width: 140rem;
+       width: 100%;
+      box-shadow: 0px 10px 10px 6px rgba(0,0,0,.6);
       
     }
     
     
     .blog-titulo{
-    color: #1CD8D2;
-    font-weight: 700;
+        color: #1CD8D2;
+        font-weight: 700;
+        font-size: 15px;
     }
     
     .blog-texto{
-    text-align: left;
-    text-align: justify;
-    margin: auto;
-    font-size: 12px;
+        text-align: left;
+       text-align: justify;
+        margin: auto;
+        font-size: 10px;
         
         
     }
+    
+    
+    .card-img-top{
+        object-fit: cover;
+        height: 650px;
+        height: 300px;
+    }
+    
+    
 
 }
 
@@ -207,27 +212,47 @@
     }
     
     
-    .caja-fondo{
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        width: 750px;
+        margin-top: 20px;
+        margin-bottom: 25px;
         
-    box-shadow: 0px 10px 10px 6px rgba(0,0,0,.6);
+    }
+    
+    
+    .caja-fondo{
+       max-width: 140rem;
+       width: 100%;
+      box-shadow: 0px 10px 10px 6px rgba(0,0,0,.6);
       
     }
     
     
     .blog-titulo{
-    color: #1CD8D2;
-    font-weight: 700;
+        color: #1CD8D2;
+        font-weight: 700;
     }
     
     .blog-texto{
-    text-align: left;
-    text-align: justify;
-    margin: auto;
-    font-size: 12px;
+        text-align: left;
+       text-align: justify;
+        margin: auto;
         
         
     }
-
+    
+    
+    .card-img-top{
+        object-fit: cover;
+        height: 650px;
+    }
+    
+    
 
 }
 
@@ -255,28 +280,47 @@
     }
     
     
-    .caja-fondo{
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        width: 750px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        
+    }
     
-    box-shadow: 0px 10px 10px 6px rgba(0,0,0,.6);
-    width: 28rem;
-    margin: auto;
+    
+    .caja-fondo{
+       max-width: 140rem;
+       width: 100%;
+      box-shadow: 0px 10px 10px 6px rgba(0,0,0,.6);
       
     }
     
     
     .blog-titulo{
-    color: #1CD8D2;
-    font-weight: 700;
+        color: #1CD8D2;
+        font-weight: 700;
     }
     
     .blog-texto{
-    text-align: left;
-    text-align: justify;
-    margin: auto;
-    font-size: 12px;
+        text-align: left;
+       text-align: justify;
+        margin: auto;
         
         
     }
+    
+    
+    .card-img-top{
+        object-fit: cover;
+        height: 650px;
+    }
+    
+    
 
 }
       
@@ -305,30 +349,47 @@
     }
     
     
-    .caja-fondo{
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        width: 750px;
+        margin-top: 20px;
+        margin-bottom: 25px;
         
-    box-shadow: 0px 10px 10px 6px rgba(0,0,0,.6);
-    width: 38rem;
-    margin: auto;
+    }
+    
+    
+    .caja-fondo{
+       max-width: 140rem;
+       width: 100%;
+      box-shadow: 0px 10px 10px 6px rgba(0,0,0,.6);
       
     }
     
     
     .blog-titulo{
-    color: #1CD8D2;
-    font-weight: 700;
+        color: #1CD8D2;
+        font-weight: 700;
     }
     
     .blog-texto{
-    text-align: left;
-    text-align: justify;
-    margin: auto;
-    font-size: 12px;
+        text-align: left;
+       text-align: justify;
+        margin: auto;
         
         
     }
     
-
+    
+    .card-img-top{
+        object-fit: cover;
+        height: 650px;
+    }
+    
+    
              
     
     
