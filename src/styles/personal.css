@@ -1,0 +1,744 @@
+:root{
+    --gold1:#F4BD76;
+    --gold2:#F6CD8F;
+    --gray:#ffffff80;
+    --gray2:#f7d9d990;
+    --black1: #1A1B1F;
+    --black2: #30353B;
+    --shadow: 0 8px 8px;
+    --color_shadow: #00000033;
+}
+
+
+
+.testimony{
+    background: rgb(141, 45, 133);
+    height: 55em;
+    text-align: center;
+}
+
+.testimony-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testimony__card{
+    margin-top: 50px;
+    width: 40%;
+    height: 600px;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    border-radius: 10px;
+    position: relative;
+    /* color: rgb(0, 255, 255); */
+}
+
+.subtitle{
+    padding-top: 30px;
+    font-size: 42px;
+    color: rgb(255, 197, 5);
+    font-family: 'Itim', cursive;
+    
+    
+}
+
+.subtitle--modifier{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+
+
+.testimony__img{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.testimony__copy{
+    position: absolute;
+    bottom: 20px;
+    left: 5%;
+    width: 90%;
+    background: rgb(20, 163, 163);
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: var(--shadow) var(--color_shadow);
+    padding: 5px 2px;
+    display: flex;
+    align-items: center;
+}
+
+.testimony__copy--modifier{
+    background: none;
+    box-shadow: none;
+}
+
+.testimony__logo{
+    font-size: 40px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.testimony__name{
+    font-size: 24px;
+    line-height:28px;
+}
+
+.testimony__position{
+    color: var(--gray);
+}
+
+.testimony__text{
+    padding: 40px 0;
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.google__logo{
+    margin-bottom: 20px;
+}
+
+
+.testimony__history{
+    font-size: 21px;
+    font-weight: 300;
+}
+
+
+.testimony__info{
+    width: 70%;
+}
+
+.logo--picture{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center top;
+}
+
+
+
+
+@media(max-width: 400.98px){
+
+.testimony{
+    background: rgb(141, 45, 133);
+    height: 80em;
+    text-align: center;
+}
+
+.testimony-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testimony__card{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    border-radius: 10px;
+    position: relative;
+    /* color: rgb(0, 255, 255); */
+}
+
+.subtitle{
+    padding-top: 30px;
+    font-size: 30px;
+    color: rgb(255, 197, 5);
+    font-family: 'Itim', cursive;
+    
+    
+}
+
+.subtitle--modifier{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+
+
+.testimony__img{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.testimony__copy{
+    position: absolute;
+    bottom: 20px;
+    left: 5%;
+    width: 90%;
+    background: rgb(20, 163, 163);
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: var(--shadow) var(--color_shadow);
+    padding: 5px 2px;
+    display: flex;
+    align-items: center;
+}
+
+.testimony__copy--modifier{
+    background: none;
+    box-shadow: none;
+}
+
+.testimony__logo{
+    font-size: 40px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.testimony__name{
+    font-size: 24px;
+    line-height:28px;
+}
+
+.testimony__position{
+    color: var(--gray);
+}
+
+.testimony__text{
+    padding: 40px 0;
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.google__logo{
+    margin-bottom: 20px;
+}
+
+
+.testimony__history{
+    font-size: 21px;
+    font-weight: 300;
+}
+
+
+.testimony__info{
+    width: 70%;
+}
+
+.logo--picture{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center top;
+}
+  
+
+}
+
+
+
+
+@media screen and (min-width: 401px) and (max-width: 578.98px){
+
+    .testimony{
+        background: rgb(141, 45, 133);
+        height: 80em;
+        text-align: center;
+    }
+    
+    .testimony-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .testimony__card{
+        margin-top: 50px;
+        width: 100%;
+        height: 500px;
+        background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+        border-radius: 10px;
+        position: relative;
+        /* color: rgb(0, 255, 255); */
+    }
+    
+    .subtitle{
+        padding-top: 30px;
+        font-size: 30px;
+        color: rgb(255, 197, 5);
+        font-family: 'Itim', cursive;
+        
+        
+    }
+    
+    .subtitle--modifier{
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    
+    
+    
+    .testimony__img{
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-fit: cover;
+        object-position: center top;
+    }
+    
+    .testimony__copy{
+        position: absolute;
+        bottom: 20px;
+        left: 5%;
+        width: 90%;
+        background: rgb(20, 163, 163);
+        color: #fff;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: var(--shadow) var(--color_shadow);
+        padding: 5px 2px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .testimony__copy--modifier{
+        background: none;
+        box-shadow: none;
+    }
+    
+    .testimony__logo{
+        font-size: 40px;
+        margin-right: 15px;
+        display: inline-block;
+    }
+    
+    .testimony__name{
+        font-size: 24px;
+        line-height:28px;
+    }
+    
+    .testimony__position{
+        color: var(--gray);
+    }
+    
+    .testimony__text{
+        padding: 40px 0;
+        width: 90%;
+        margin: 0 auto;
+        color: #fff;
+    }
+    
+    .google__logo{
+        margin-bottom: 20px;
+    }
+    
+    
+    .testimony__history{
+        font-size: 21px;
+        font-weight: 300;
+    }
+    
+    
+    .testimony__info{
+        width: 70%;
+    }
+    
+    .logo--picture{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: center top;
+    }
+   
+
+}
+
+
+
+
+@media screen and (min-width: 579px) and (max-width: 767.98px){
+
+    .testimony{
+        background: rgb(141, 45, 133);
+        height: 80em;
+        text-align: center;
+    }
+    
+    .testimony-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .testimony__card{
+        margin-top: 50px;
+        width: 100%;
+        height: 500px;
+        background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+        border-radius: 10px;
+        position: relative;
+        /* color: rgb(0, 255, 255); */
+    }
+    
+    .subtitle{
+        padding-top: 30px;
+        font-size: 30px;
+        color: rgb(255, 197, 5);
+        font-family: 'Itim', cursive;
+        
+        
+    }
+    
+    .subtitle--modifier{
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    
+    
+    
+    .testimony__img{
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-fit: cover;
+        object-position: center top;
+    }
+    
+    .testimony__copy{
+        position: absolute;
+        bottom: 20px;
+        left: 5%;
+        width: 90%;
+        background: rgb(20, 163, 163);
+        color: #fff;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: var(--shadow) var(--color_shadow);
+        padding: 5px 2px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .testimony__copy--modifier{
+        background: none;
+        box-shadow: none;
+    }
+    
+    .testimony__logo{
+        font-size: 40px;
+        margin-right: 15px;
+        display: inline-block;
+    }
+    
+    .testimony__name{
+        font-size: 24px;
+        line-height:28px;
+    }
+    
+    .testimony__position{
+        color: var(--gray);
+    }
+    
+    .testimony__text{
+        padding: 40px 0;
+        width: 90%;
+        margin: 0 auto;
+        color: #fff;
+    }
+    
+    .google__logo{
+        margin-bottom: 20px;
+    }
+    
+    
+    .testimony__history{
+        font-size: 21px;
+        font-weight: 300;
+    }
+    
+    
+    .testimony__info{
+        width: 70%;
+    }
+    
+    .logo--picture{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: center top;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and  (max-width: 1023.98px) {
+
+    .testimony{
+        background: rgb(141, 45, 133);
+        height: 47em;
+        text-align: center;
+    }
+    
+    .testimony-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .testimony__card{
+        margin-top: 50px;
+        width: 47%;
+        height: 480px;
+        background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+        border-radius: 10px;
+        position: relative;
+        /* color: rgb(0, 255, 255); */
+    }
+    
+    .subtitle{
+        padding-top: 30px;
+        font-size: 30px;
+        color: rgb(255, 197, 5);
+        font-family: 'Itim', cursive;
+        
+        
+    }
+    
+    .subtitle--modifier{
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    
+    
+    
+    .testimony__img{
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-fit: cover;
+        object-position: center top;
+    }
+    
+    .testimony__copy{
+        position: absolute;
+        bottom: 20px;
+        left: 5%;
+        width: 90%;
+        background: rgb(20, 163, 163);
+        color: #fff;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: var(--shadow) var(--color_shadow);
+        padding: 0px 2px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .testimony__copy--modifier{
+        background: none;
+        box-shadow: none;
+    }
+    
+    .testimony__logo{
+        font-size: 40px;
+        margin-right: 15px;
+        display: inline-block;
+    }
+    
+    .testimony__name{
+        font-size: 24px;
+        line-height:28px;
+    }
+    
+    .testimony__position{
+        color: var(--gray);
+    }
+    
+    .testimony__text{
+        padding: 40px 0;
+        width: 90%;
+        margin: 0 auto;
+        color: #fff;
+    }
+    
+    .google__logo{
+        margin-bottom: 20px;
+    }
+    
+    
+    .testimony__history{
+        font-size: 21px;
+        font-weight: 300;
+    }
+    
+    
+    .testimony__info{
+        width: 70%;
+    }
+    
+    .logo--picture{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: center top;
+    }
+
+  
+   
+  
+}
+
+
+@media screen and (min-width: 1024px) and  (max-width: 1112) {
+
+
+    .testimony{
+        background: rgb(141, 45, 133);
+        height: 67em;
+        text-align: center;
+    }
+    
+    .testimony-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .testimony__card{
+        margin-top: 50px;
+        width: 67%;
+        height: 580px;
+        background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+        border-radius: 10px;
+        position: relative;
+        /* color: rgb(0, 255, 255); */
+    }
+    
+    .subtitle{
+        padding-top: 30px;
+        font-size: 30px;
+        color: rgb(255, 197, 5);
+        font-family: 'Itim', cursive;
+        
+        
+    }
+    
+    .subtitle--modifier{
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    
+    
+    
+    .testimony__img{
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-fit: cover;
+        object-position: center top;
+    }
+    
+    .testimony__copy{
+        position: absolute;
+        bottom: 20px;
+        left: 5%;
+        width: 90%;
+        background: rgb(20, 163, 163);
+        color: #fff;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: var(--shadow) var(--color_shadow);
+        padding: 0px 2px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .testimony__copy--modifier{
+        background: none;
+        box-shadow: none;
+    }
+    
+    .testimony__logo{
+        font-size: 40px;
+        margin-right: 15px;
+        display: inline-block;
+    }
+    
+    .testimony__name{
+        font-size: 24px;
+        line-height:28px;
+    }
+    
+    .testimony__position{
+        color: var(--gray);
+    }
+    
+    .testimony__text{
+        padding: 40px 0;
+        width: 90%;
+        margin: 0 auto;
+        color: #fff;
+    }
+    
+    .google__logo{
+        margin-bottom: 20px;
+    }
+    
+    
+    .testimony__history{
+        font-size: 21px;
+        font-weight: 300;
+    }
+    
+    
+    .testimony__info{
+        width: 70%;
+    }
+    
+    .logo--picture{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: center top;
+    }
+
+  
+}  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

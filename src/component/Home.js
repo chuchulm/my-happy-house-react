@@ -6,6 +6,7 @@ import Portafolio from './Portafolio'
 import FooterPrincipal from './FooterPrincipal'
 import Paralax from './paralax'
 import IconosWhatsapp from './iconoWhatsapp'
+import { Personal } from './Personal';
 
 
 
@@ -17,6 +18,7 @@ function Home(){
      <Main/>
      <Carousel/>
      <Portafolio/>
+     <Personal/>
      <Paralax/>
      <FooterPrincipal/>
      <IconosWhatsapp/>
