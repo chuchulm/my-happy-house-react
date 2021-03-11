@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import '../styles/main.css';
 import Aos from "aos"
 import "aos/dist/aos.css"
-import jirafa from '../img/jirafa.png'
+import jirafa from '../img/jirafa_opt.png'
 import video from '../img/videoHappyHouse.mp4';
 
 
