@@ -6,10 +6,10 @@ import logo from '../img/logo-happy-house-vector3.png';
 import zorrilla from '../img/zorrilla.png';
 import oso from '../img/oso.png';
 import OsoPolar from '../img/oso-polar_opt.png'
-import inst1 from '../img/instalacion1.png';
-import inst2 from '../img/instalacion2.png';
-import inst3 from '../img/instalacion3.png';
-import inst8 from '../img/instalacion8.png';
+import inst1 from '../img/instalacion1_opt.png';
+import inst2 from '../img/instalacion2_opt.png';
+import inst3 from '../img/instalacion3_opt.png';
+import inst8 from '../img/instalacion8_opt.png';
 import happy1 from '../img/happy-1.jpeg';
 import happy2 from '../img/happy-2.jpeg';
 import happy4 from '../img/happy-4.jpeg';
