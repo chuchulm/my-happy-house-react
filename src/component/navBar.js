@@ -22,7 +22,7 @@ function NavBar(){
       
       
         <nav className="navbar navbar-expand-lg navbar-dark  navBarColor">
-          <img src={Logo} alt='imagen' className='logo-navBar animate__backInUp  '  data-aos="fade-right"/>
+          <img src={Logo} alt='myhappyhousechile' className='logo-navBar animate__backInUp  '  data-aos="fade-right"/>
         <button className="navbar-toggler color-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -61,4 +61,3 @@ export default NavBar;
 
 
 
-// navbar-nav mr-auto text-center

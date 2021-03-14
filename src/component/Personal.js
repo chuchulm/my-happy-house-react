@@ -6,12 +6,12 @@ export const Personal = () => {
     return (
         <div className="testimony">
             <div className="container">
-                <h2 className="subtitle">Directoras<span className="point">.</span></h2>
-                {/* <p className="copy__div">directores </p> */}
+                <h2 className="subtitle">Capital humano<span className="point">.</span></h2>
+            
 
                 <div className="testimony-container">
                     <div className="testimony__card">
-                        <img src={happy3} className="testimony__img"/>
+                        <img src={happy3} className="testimony__img" alt="myhappyhousechile"/>
                         <div className="testimony__copy">
                             <i className='bx bxl-google testimony__logo'></i>
                             <div className="testimony__info">
@@ -22,7 +22,7 @@ export const Personal = () => {
                     </div>
 
                     <div className="testimony__card">
-                        <img src={happy3} className="testimony__img"/>
+                        <img src={happy3} className="testimony__img" alt="myhappyhousechile"/>
                         <div className="testimony__copy">
                             <i className='bx bxl-apple testimony__logo'></i>
                             <div className="testimony__info">

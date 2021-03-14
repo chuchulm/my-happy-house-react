@@ -14,13 +14,13 @@ function Footer(){
                  </div>
 
                  <div className="content-foo">
-                    <h4>Localizacion</h4>
+                    <h4>Localización</h4>
                     <p>Bernardo de amaza 621, nuñoa</p>
                   
                  </div>
 
                  <div className="content-foo">
-                     <h4>Telefono</h4>
+                     <h4>Teléfono</h4>
                      <p>+56 9 45-832-173</p>
                  </div>
 
@@ -28,7 +28,7 @@ function Footer(){
              
              
             </div>
-                 <h2 className="titulo-final">&copy; My Happy House All Rights Reserved.</h2>
+                 <h2 className="titulo-final">&copy; My Happy House chile All Rights Reserved.</h2>
         </div>
     ) 
     

@@ -44,7 +44,7 @@ function Lacasa(){
                             return(
                         
                                 <div className="  card123" key= { index } >
-                                   <img src= { img } className="card-img-top imgcard" alt= 'myhappyhouse'  />
+                                   <img src= { img } className="card-img-top imgcard" alt= 'myhappyhousechile'  />
                                 </div>
                             )
                             

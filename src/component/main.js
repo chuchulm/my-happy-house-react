@@ -41,7 +41,7 @@ function Main(){
                 </div>
             </div>
            
-        <img src={jirafa}  alt='imagen' className='jirafa'  data-aos="fade-up"/> 
+        <img src={jirafa}  alt='imagen' className='jirafa'  /> 
             </div>
            
 
@@ -53,3 +53,6 @@ function Main(){
     )
 }
 export default Main;
+
+
+// data-aos="fade-up"

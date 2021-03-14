@@ -28,7 +28,7 @@ function Carousel(){
              <path d="M-24.60,26.94 C149.21,110.81 271.49,-49.99 500.22,40.75 L500.00,0.00 L0.00,0.00 Z" className="wave3"></path></svg>
          </div>
 
-             <img src={zorro}  alt='imagen' className='zorro' width="460px" height="250px" data-aos="fade-up"/>
+             <img src={zorro}  alt='myhappyhousechile' className='zorro' width="460px" height="250px" data-aos="fade-up"/>
 
       <div data-aos="fade-right"
            data-aos-offset="300"
@@ -36,7 +36,7 @@ function Carousel(){
        <h3 className="tituloCarousel">Ven a disfrutar<span className='VEN'> esta increible</span> Aventura</h3>
       </div>
 
-        <div id="carouselExampleIndicators" className="carousel slide  carouselHouse1" data-ride="carousel" data-aos="fade-left">
+        <div id="carouselExampleIndicators" className="carousel slide  carouselHouse1" data-ride="carousel" >
            <ol className="carousel-indicators">
              <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -45,13 +45,13 @@ function Carousel(){
 
            <div className="carousel-inner">
              <div className="carousel-item active">
-               <img src={casa8} className="carouselHouse" alt="..."/>
+               <img src={casa8} className="carouselHouse" alt="myhappyhousechile"/>
              </div>
              <div className="carousel-item">
-               <img src={img2} className="carouselHouse" alt="..."/>
+               <img src={img2} className="carouselHouse" alt="myhappyhousechile"/>
              </div>
              <div className="carousel-item">
-               <img src={img3} className="carouselHouse" alt="..."/>
+               <img src={img3} className="carouselHouse" alt="myhappyhousechile"/>
              </div>
            </div>
 
@@ -70,6 +70,8 @@ function Carousel(){
 }
 export default Carousel;
 
+
+// data-aos="fade-left"
 
    
 
