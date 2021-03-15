@@ -9,11 +9,13 @@ import OsoPolar from '../img/oso-polar_opt.png'
 import inst1 from '../img/instalacion1_opt.png';
 import inst2 from '../img/instalacion2_opt.png';
 import inst3 from '../img/instalacion3_opt.png';
-import inst8 from '../img/instalacion8_opt.png';
 import happy1 from '../img/happy-1.jpeg';
 import happy2 from '../img/happy-2.jpeg';
-import happy4 from '../img/happy-4.jpeg';
 import happy5 from '../img/happy-5.jpeg';
+import happy6 from '../img/happy-6.jpeg';
+import happy7 from '../img/happy-7.jpeg';
+
+
 
 
 
@@ -60,15 +62,15 @@ function Portafolio(){
                   </div>
 
                   <div className="imagen-port" data-aos="fade-up-right">
-                     <img src={inst1} alt="myhappyhousechile"></img>
+                     <img src={happy6} alt="myhappyhousechile"></img>
                   </div>
 
                   <div className="imagen-port" data-aos="fade-up">
-                     <img src={happy4} alt="myhappyhousechile"></img>
+                     <img src={inst1} alt="myhappyhousechile"></img>
                   </div>
 
                   <div className="imagen-port" data-aos="fade-left">
-                      <img src={inst8} alt="myhappyhousechile"></img>
+                      <img src={happy7} alt="myhappyhousechile"></img>
                   </div>
 
                   <div className="imagen-port" data-aos="fade-up-left">
