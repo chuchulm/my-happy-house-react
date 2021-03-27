@@ -43,7 +43,7 @@ function Carousel(){
              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
            </ol>
 
-           <div className="carousel-inner">
+           <div className="carousel-inner container-corusel">
              <div className="carousel-item active">
                <img src={casa8} className="carouselHouse" alt="myhappyhousechile"/>
              </div>

@@ -1,7 +1,7 @@
 .total{
     background: #274cc7;
     width: 100%;
-    height: 1390px;
+    height: 90rem;
     position: relative;
    
     
@@ -13,14 +13,14 @@
     color: rgb(0, 255, 255);
     text-align: center;
     font-family: 'Itim', cursive;
-    font-size: 40px;
+    font-size: 3.5rem;
     margin-top: 30px;
     
 }
 
-.tituloCarousel h3{
-    font-size: 40px;
-}
+/* .tituloCarousel h3{
+    font-size: 3rem;
+} */
 
 .VEN{
     color: rgb(240, 187, 12);
@@ -28,9 +28,14 @@
     font-family: 'Itim', cursive;
 }
 
+.container-corusel{
+    width: 100%;
+    height: 100%;
+}
+
 .carouselHouse{
     width: 100%;
-    height: 770px;
+    height: 60.5rem;
     border-radius: 5px;
     object-fit: cover;
     
@@ -40,8 +45,8 @@
     
     margin: auto;
     background: #274cc7ec;
-    width: 85%;
-    height: 810px;
+    width: 90%;
+    height: 65%;
     border: solid rgb(206, 37, 212) 20px;
     border-radius: 30px;
     margin-top: 120px;
@@ -52,10 +57,10 @@
 
 .zorro{
     position: absolute;
-    top: -23px;
-    right:-90px;
-    width: 800px;
-    height: 500px;
+    top: -1%;
+    right:-8%;
+    width: 40%;
+    height: 35%;
     
 }
 
@@ -121,7 +126,7 @@ stroke: none;
         height: 250px;
         border: solid rgb(206, 37, 212) 20px;
         border-radius: 30px;
-        /* margin-top: 0px; */
+    
         box-shadow: 0 0 6px rgba(0, 0, 0 , .8);
         
         
@@ -129,10 +134,10 @@ stroke: none;
 
     .zorro{
         position: absolute;
-        top: 90px;
-        left: 150px;
-        width: 300px;
-        height: 180px;
+        top: 17%;
+        left: 35%;
+        width: 80%;
+        height: 34%;
         z-index: 1;
     }
 }
@@ -183,7 +188,7 @@ stroke: none;
         height: 290px;
         border: solid rgb(206, 37, 212) 20px;
         border-radius: 30px;
-        /* margin-top: 0px; */
+       
         box-shadow: 0 0 6px rgba(0, 0, 0 , .8);
         
         
@@ -191,10 +196,10 @@ stroke: none;
 
     .zorro{
         position: absolute;
-        top: 85px;
-        left: 200px;
-        width: 300px;
-        height: 180px;
+        top: 15%;
+        left: 35%;
+        width: 77%;
+        height: 29%;
         z-index: 1;
     }
 }
@@ -257,25 +262,7 @@ stroke: none;
         z-index: 1;
     }
 
-    .wave1{
-    top: -1px;
-    height: 100px;
-    width: 100%;
     
-    
-    }
-    .wave2{
-     height: 150%;
-     width: 100%;
-     
-    }
-    .wave3{
-    stroke: none;
-     fill: #9ece1bfa;
-     
-    }
-        
-  
    
 
 }
@@ -339,23 +326,7 @@ stroke: none;
         z-index: 1;
     }
 
-    .wave1{
-    top: -1px;
-    height: 100px;
-    width: 100%;
     
-    
-    }
-    .wave2{
-     height: 150%;
-     width: 100%;
-     
-    }
-    .wave3{
-    stroke: none;
-     fill: #9ece1bfa;
-     
-    }
         
   
    
@@ -429,24 +400,7 @@ stroke: none;
         z-index: 1;
     }
 
-    .wave1{
-    top: -1px;
-    height: 100px;
-    width: 100%;
-    
-    
-    }
-    .wave2{
-     height: 150%;
-     width: 100%;
-     
-    }
-    .wave3{
-    stroke: none;
-     fill: #9ece1bfa;
-     
-    }
-        
+   
 
 
 }
@@ -513,24 +467,7 @@ stroke: none;
         z-index: 1;
     }
 
-    .wave1{
-    top: -1px;
-    height: 100px;
-    width: 100%;
     
-    
-    }
-    .wave2{
-     height: 150%;
-     width: 100%;
-     
-    }
-    .wave3{
-    stroke: none;
-     fill: #9ece1bfa;
-     
-    }
-        
 }  
 
 
@@ -540,7 +477,7 @@ stroke: none;
     .total{
         background: #274cc7;
         width: 100%;
-        height: 1200px;
+        height: 75rem;
         position: relative;
        
         
@@ -592,38 +529,13 @@ stroke: none;
     
     .zorro{
         position: absolute;
-        top: 10px;
-        right:-220px;
-        width: 750px;
-        height: 450px;
+        top: 2%;
+        right:-18%;
+        width:  55%;
+        height: 36%;
         
     }
 
-
-    .aeiou{
-        width: 600px;
-        height: 400px;
-        position: absolute;
-        top: 970px;
-        left: 10px;
-        
-
-    }
-    
-    .wave1{
-    height: 100px;
-    width: 100%;
-    
-    }
-    .wave2{
-     height: 150%;
-     width: 100%;
-     
-    }
-    .wave3{
-    stroke: none;
-     fill: #9ece1bfa;
-    }
   
 
 }
@@ -695,31 +607,8 @@ stroke: none;
     }
 
 
-    .aeiou{
-        width: 600px;
-        height: 400px;
-        position: absolute;
-        top: 970px;
-        left: 10px;
-        
+   
 
-    }
-    
-    .wave1{
-    height: 100px;
-    width: 100%;
-    
-    }
-    .wave2{
-     height: 150%;
-     width: 100%;
-     
-    }
-    .wave3{
-    stroke: none;
-     fill: #9ece1bfa;
-    }
-  
 
 }
 

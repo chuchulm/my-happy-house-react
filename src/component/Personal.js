@@ -8,7 +8,7 @@ export const Personal = () => {
     return (
         <div className="testimony">
             <div className="container">
-                <h2 className="subtitle">Capital humano<span className="point">.</span></h2>
+                <h2 className="subtitle">Capital humano</h2>
             
 
                 <div className="testimony-container">

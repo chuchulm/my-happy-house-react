@@ -3,22 +3,26 @@
 
 
 .imgPrincipal{
- width: 100%;
- height: 900px;
+ width: 100vw;
+ height: 100vh;
 }
 
 .nube{
+  width: 14%;
+  height: 16%;
   position: absolute;
-  top: 50px;
-  left: 600px;
-  animation: move 30s infinite linear alternate;
+  top: 10%;
+  left: 30%;
+  animation: move 20s infinite linear alternate;
 }
 
 .nube1{
+  width: 14%;
+  height: 16%;
   position: absolute;
-  top: 250px;
-  right: 0rem;
-  animation: move 30s infinite linear alternate;
+  top: 30%;
+  right: 1%;
+  animation: move 20s infinite linear alternate;
   
        
   
@@ -29,48 +33,38 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(-420px);
+    transform: translateX(-100%);
   }
 }
 
-  .venado{
-    width: 420px;
-    height: 250px;
-    position: absolute;
-    top: 750px;
-    left: 50px;
-
-  }
+  
 
 
-/* Responsive */
+/* Responsive*/
 
-  @media(max-width: 400.98px){
+   @media(max-width: 400.98px){
     .imgPrincipal{
       width: 100%;
-      height: 220px;
+      height: 13.75rem;
      }
 
      .nube{
-       width: 60px;
-       height: 50px;
+      width: 10%;
+      height: 5%;
       position: absolute;
-      top: 0px;
-      left: 130px;
-      animation: move 30s infinite linear alternate;
-  }
-  
-  .nube1{
-      width: 60px;
-      height: 50px;
+      top: 10%;
+      left: 30%;
+      animation: move 20s infinite linear alternate;
+    }
+    
+    .nube1{
+      width: 10%;
+      height: 5%;
       position: absolute;
-      top: 15px;
-      right: 80px;
-      animation: move 35s infinite linear alternate;
-          
-      
-  }
-
+      top: 10%;
+      right: 1%;
+      animation: move 20s infinite linear alternate;
+    }
 
   @keyframes move {
     from {
@@ -81,13 +75,7 @@
     }
   }
 
-      .venado{
-       width: 130px;
-       height: 70px;
-       top: 250px;
-       left: -15px;
-       z-index: 1;
-      }
+    
   }
 
 
@@ -100,28 +88,26 @@
 
   .imgPrincipal{
     width: 100%;
-    height: 250px;
+    height: 13.75rem;
    }
 
    .nube{
-     width: 80px;
-     height: 60px;
+    width: 12%;
+    height: 7%;
     position: absolute;
-    top: 0px;
-    left: 130px;
-    animation: move 35s infinite linear alternate;
-}
-
-.nube1{
-    width: 80px;
-    height: 60px;
+    top: 10%;
+    left: 30%;
+    animation: move 20s infinite linear alternate;
+  }
+  
+  .nube1{
+    width: 12%;
+    height: 7%;
     position: absolute;
-    top: 15px;
-    right: 80px;
-    animation: move 30s infinite linear alternate;
-        
-    
-}
+    top: 15%;
+    right: 1%;
+    animation: move 20s infinite linear alternate;
+  }
 
 
 @keyframes move {
@@ -133,12 +119,7 @@
   }
 }
 
-    .venado{
-     width: 140px;
-     height: 80px;
-     top: 270px;
-     left: -10px;
-    }
+   
   
    
 
@@ -152,18 +133,18 @@
   .imgPrincipal{
     width: 100%;
     height: 450px;
-   }
+  }
 
-   .nube{
+  .nube{
      width: 100px;
      height: 80px;
     position: absolute;
     top: 0px;
     left: 130px;
     animation: move 30s infinite linear alternate;
-}
+  }
 
-.nube1{
+  .nube1{
     width: 100px;
     height: 80px;
     position: absolute;
@@ -184,17 +165,7 @@
   }
 }
 
-    .venado{
-      position: absolute;
-     width: 200px;
-     height: 120px;
-     top: 400px;
-     left: 10px;
-    }
-  
-    
-  
-   
+
 
 }
 
@@ -210,7 +181,7 @@
   .imgPrincipal{
     width: 100%;
     height: 500px;
-   }
+  }
 
    .nube{
      width: 200px;
@@ -220,17 +191,15 @@
     left: 130px;
     animation: move 35s infinite linear alternate;
 
-   }
+  }
 
 .nube1{
-    width: 200px;
-    height: 120px;
-    position: absolute;
-    top: 70px;
-    right: 80px;
-    animation: move 30s infinite linear alternate;
-        
-    
+  width: 200px;
+  height: 120px;
+  position: absolute;
+  top: 70px;
+  right: 80px;
+  animation: move 30s infinite linear alternate;
 }
 
 
@@ -242,23 +211,6 @@
     transform: translateX(-450px);
   }
 }
-
-    .venado{
-      position: absolute;
-     width: 250px;
-     height: 140px;
-     top: 450px;
-     left: -50px;
-    }
-  
-    
-  
-   
-
-
-
-
-  
    
   
 }
@@ -272,20 +224,18 @@
    }
    
    .nube{
-       position: absolute;
-       top: 50px;
-       left: 600px;
-       animation: move 35s infinite linear alternate;
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    animation: move 35s infinite linear alternate;
    }
    
    .nube1{
-       position: absolute;
-       top: 250px;
-       right: 0rem;
-       animation: move 30s infinite linear alternate;
-       
-            
-       
+    position: absolute;
+    top: 250px;
+    right: 0rem;
+    animation: move 30s infinite linear alternate;
+           
    }
    
    @keyframes move {
@@ -297,14 +247,6 @@
        }
      }
    
-     .venado{
-       width: 350px;
-       height: 200px;
-       position: absolute;
-       top: 550px;
-       left: 0px;
-   
-     }
+     
 }  
    
-  
