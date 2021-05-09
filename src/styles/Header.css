@@ -3,12 +3,14 @@
 
 
 .imgPrincipal{
- width: 100vw;
- height: 100vh;
+ max-width: 100vw;
+ width: 100%;
+ height: 100%;
 }
 
 .nube{
-  width: 14%;
+ 
+  width: 14% ;
   height: 16%;
   position: absolute;
   top: 10%;
@@ -20,7 +22,7 @@
   width: 14%;
   height: 16%;
   position: absolute;
-  top: 30%;
+  top: 20%;
   right: 1%;
   animation: move 20s infinite linear alternate;
   
@@ -40,43 +42,41 @@
   
 
 
-/* Responsive*/
+/* Responsive */
 
-   @media(max-width: 400.98px){
-    .imgPrincipal{
-      width: 100%;
-      height: 13.75rem;
-     }
-
-     .nube{
-      width: 10%;
-      height: 5%;
-      position: absolute;
-      top: 10%;
-      left: 30%;
-      animation: move 20s infinite linear alternate;
-    }
-    
-    .nube1{
-      width: 10%;
-      height: 5%;
-      position: absolute;
-      top: 10%;
-      right: 1%;
-      animation: move 20s infinite linear alternate;
-    }
-
+@media(max-width: 400.98px){
+  .imgPrincipal{
+    width: 100%;
+    height: 13.75rem;
+   }
+   .nube{
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    animation: move 20s infinite linear alternate;
+  }
+  
+  .nube1{
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    top: 10%;
+    right: 1%;
+    animation: move 20s infinite linear alternate;
+  }
   @keyframes move {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-200px);
-    }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-200px);
+  }
   }
 
     
-  }
+}
 
 
 

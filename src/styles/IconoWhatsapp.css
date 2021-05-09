@@ -18,10 +18,13 @@
 
 .iconoWhatsapp{
   display: flex;
-  font-size: 80px;
+  font-size: 5rem;
   transition: all 300ms;
-  color: rgb(85, 180, 6);   
-    
+  background-color: rgb(88, 202, 59);
+  color: rgb(252, 252, 252);  
+  padding: .5rem;
+  border-radius: 1rem;
+  
 }
 
 .container-icons .iconoWhatsapp:hover{
@@ -58,7 +61,7 @@
   display: flex;
   font-size: 80px;
   transition: all 300ms;
-  color: rgb(85, 180, 6);   
+  color: rgb(255, 255, 255);   
     
 }
 
@@ -93,7 +96,7 @@
    display: flex;
    font-size: 80px;
    transition: all 300ms;
-   color: rgb(85, 180, 6);   
+   color: rgb(250, 250, 250);   
      
  }
 
@@ -135,7 +138,7 @@
    display: flex;
    font-size: 80px;
    transition: all 300ms;
-   color: rgb(85, 180, 6);   
+   color: rgb(255, 255, 255);   
      
  }
 
@@ -180,7 +183,7 @@
    display: flex;
    font-size: 80px;
    transition: all 300ms;
-   color: rgb(85, 180, 6);   
+   color: rgb(255, 255, 255);   
      
  }
 
@@ -222,7 +225,7 @@
     display: flex;
     font-size: 80px;
     transition: all 300ms;
-    color: rgb(85, 180, 6);   
+    color: rgb(255, 255, 255);   
       
   }
  
@@ -263,7 +266,7 @@
     display: flex;
     font-size: 80px;
     transition: all 300ms;
-    color: rgb(85, 180, 6);   
+    color: rgb(255, 255, 255);   
       
   }
   
